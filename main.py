@@ -13,7 +13,7 @@ and sends that to the CardGenerator class so that a card can be generated.
 def generate_magic_card(labels, color_info):
   card = card_generator.CardGenerator(labels, color_info)
   card.generate()
-  print card
+  print(card)
 
 def generate_magic_card_from_filename(file_name):
   # this should call google_vision.py eventually
