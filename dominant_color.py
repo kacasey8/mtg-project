@@ -11,6 +11,7 @@ def get_colors(infile, outfile, numcolors=10, swatchsize=20, resize=150):
     result = image.convert('P', palette=Image.ADAPTIVE, colors=10)
     result.putalpha(0)
     colors = result.getcolors(resize*resize)
+    print colors
 
     # Save colors to file
 
