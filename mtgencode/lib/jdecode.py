@@ -15,11 +15,7 @@ def mtg_open_json(fname, verbose = False):
     for k_set in jobj:
         if type(k_set) == type({}):
             # if reading a single set need to change encoder
-            set = {'cards': jobj}
-            editions = k_set['editions']
-            setname = editions[0]['set']
-            codename = editions[0]['set_id']
-            uid = str(editions[0]['multiverse_id'])
+            set = {'cards': [k_set]}
         else:
             set = jobj[k_set]
             setname = set['name']
@@ -27,19 +23,29 @@ def mtg_open_json(fname, verbose = False):
                 codename = set['magicCardsInfoCode']
             else:
                 codename = ''
-            uid = set['code']
+            if 'code' in set:
+                uid = set['code']
+            else:
+                uid = ''
+
+
+        if 'cards' not in set:
+            set = {'cards': [jobj[k_set]]}
         
         for card in set['cards']:
-            card[utils.json_field_set_name] = setname
-            card[utils.json_field_info_code] = codename
-
             if type(k_set) == type({}):
                 # if reading a single set need to change encoder
                 try:
                     card['flavor'] = card['editions'][0]['flavor']
                 except Exception, e:
                     card['flavor'] = ''
+                editions = k_set['editions']
+                setname = editions[0]['set']
+                codename = editions[0]['set_id']
+                uid = str(editions[0]['multiverse_id'])
 
+            card[utils.json_field_set_name] = setname
+            card[utils.json_field_info_code] = codename
 
             cardnumber = None
             if 'number' in card:

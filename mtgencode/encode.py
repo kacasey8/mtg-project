@@ -72,7 +72,8 @@ def main(fname, oname = None, verbose = True, encoding = 'std',
             if encoding in ['vec']:
                 writer.write(card.vectorize() + '\n\n')
             else:
-                writer.write(card.encode(fmt_ordered = fmt_ordered,
+                try:
+                    writer.write(card.encode(fmt_ordered = fmt_ordered,
                                          fmt_labeled = fmt_labeled,
                                          fieldsep = fieldsep,
                                          randomize_fields = randomize_fields,
@@ -80,6 +81,9 @@ def main(fname, oname = None, verbose = True, encoding = 'std',
                                          initial_sep = initial_sep,
                                          final_sep = final_sep) 
                              + utils.cardsep)
+                except Exception, e:
+                    # Niv-Mizzet, the Firemind has weird flavor text. just skip it for now
+                    pass
 
     if oname:
         if verbose:

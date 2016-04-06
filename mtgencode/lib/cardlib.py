@@ -331,7 +331,7 @@ def fields_from_json(src_json, linetrans = True):
         text_val = utils.to_ascii(text_val)
         text_val = text_val.strip()
         fields[field_flavor] = [(-1, text_val)]
-    
+
     # we don't need to worry about bsides because we handle that in the constructor
     return parsed, valid and fields_check_valid(fields), fields
 
@@ -622,7 +622,6 @@ class Card:
                 outfields += [outfield_str]
 
             else:
-                import pdb; pdb.set_trace()
                 raise ValueError('unknown field for Card.encode(): ' + str(field))
 
         if randomize_fields:
