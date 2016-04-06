@@ -1,0 +1,166 @@
+|5creature|4|6wurm|7|8&^^^^/&^^|9landfall ~ whenever a land enters the battlefield under your control, @ gains first strike until end of turn.|3|0|1belligerent whiptail|`"whiptails can sense a traveler's footsteps from a great distance. measuring that distance has been . . . difficult."~jalun, affa sentry|
+
+|5land|4|6forest mountain|7|8|9\@ enters the battlefield tapped unless you control two or more basic lands.|3|0|1cinder glade|`|
+
+|5sorcery|4|6|7|8|9as an additional cost to cast @, sacrifice a creature.\destroy target creature.|3|0|1bone splinters|`witches of the split-eye coven speak of a future when grixis will overflow with life energy. for now, they must harvest vis from the living to fuel their dark magics.|
+
+|5creature|4|6drone eldrazi|7|8&^/&^|9devoid\deathtouch\ingest\{^^^UUBB}: draw a card. each opponent exiles the top card of his or her library.|3|0|1fathom feeder|`|
+
+|5creature|4|6ally human wizard|7|8&^^/&^^^|9when @ enters the battlefield, you may return target card with awaken from your graveyard to your hand.\land creatures you control have flying.|3|0|1halimar tidecaller|`"quiet the waves? why would i want to do that?"|
+
+|5creature|4|6griffin|7|8&^^/&^^^|9flying\when @ enters the battlefield, you gain &^^ life.|3|0|1courier griffin|`"sea gate has fallen. survivors are on the move. will send another griffin when we find refuge. stay hidden. stay safe."~message from tars olan, kor world-gift|
+
+|5creature|4|6ally shaman vampire|7|8&^^^/&^^^|9whenever you gain life, put a +&^/+&^ counter on @.|3|0|1bloodbond vampire|`"let the vampires join us. in this war, we no longer have the luxury of choosing our comrades."~general tazri, allied commander|
+
+|5creature|4|6human shaman|7|8&^/&^|9at the beginning of your upkeep, if you control six or more lands, put a &^^^^^/&^^^^^ red dragon creature token with flying onto the battlefield.|3|0|1dragonmaster outcast|`"cast out by my tribe, i am a pariah trapped in this mammal's carcass. only my true kin hear my cries."|
+
+|5creature|4|6phoenix|7|8&^^^/&^^^|9flying\haste\@ attacks each turn if able.\landfall ~ whenever a land enters the battlefield under your control, you may pay {^^^^RRRR}. if you do, return @ from your graveyard to the battlefield.|3|0|1akoum firebird|`|
+
+|5creature|4|6fish|7|8&^^^/&^^|9flying|3|0|1cloud manta|`when emeria's worshippers learned that she was no more than a twisted memory of emrakul, they abandoned their temples to the god. the deserted shrines now serve as breeding grounds for the mantas.|
+
+|5instant|4|6|7|8|9devoid\exile target creature with power &^^^ or less.|3|0|1complete disregard|`"we returned to the field and found poor len, every detail of his final moment perfectly cast in that awful dust."~javad nasrin, outrider captain|
+
+|5creature|4|6vampire|7|8&^^^^/&^^^^^|9flying\whenever you gain life, target opponent loses that much life.|3|0|1defiant bloodlord|`"despite their bravado, mortals are fragile. if zendikar is to endure, its lords must save it."~drana, kalastria bloodchief|
+
+|5creature|4|6ally goblin scout|7|8&^^^/&^^|9rally ~ whenever @ or another ally enters the battlefield under your control, creatures you control gain haste until end of turn.|3|0|1chasm guide|`with a single act of bravery, she went from expendable to indispensable.|
+
+|5creature|4|6ally human shaman|7|8&^^/&^^|9rally ~ whenever @ or another ally enters the battlefield under your control, creatures you control gain menace until end of turn.|3|0|1firemantle mage|`"come on, you twisted things! don't you want to get acquainted?"|
+
+|5creature|4|6elemental|7|8&^^^/&^^^|9trample\landfall ~ whenever a land enters the battlefield under your control, @ gets +&^^/+&^^ until end of turn.|3|0|1grove rumbler|`"the land will not wait for the enemy to arrive."~nissa revane|
+
+|5creature|4|6insect|7|8&^^/&^^^^|9reach|3|0|1giant mantis|`"i hate insects of every sort. the only mercy is that they are generally small."
+~mwani, mtenda goatherd|
+
+|5creature|4|6wurm|7|8&^^^^/&^^^|9|3|0|1broodhunter wurm|`the native creatures of zendikar have adapted to live under rocks and crawl through underbrush in order to avoid the most voracious predators. the eldrazi have yet to make such adjustments.|
+
+|5instant|4|6|7|8|9devoid\[& = return target spell or creature to its owner's hand. = @ deals &^^ damage to target creature or planeswalker. if that permanent would be put into a graveyard this turn, exile it instead.]|3|0|1brutal expulsion|`|
+
+|5creature|4|6eldrazi|7|8&^^^^^^^/&^^^^^|9whenever @ attacks, defending player exiles two permanents he or she controls.|3|0|1bane of bala ged|`the continent of bala ged was ravaged by massive eldrazi of ulamog's lineage, its lush jungles and cascading rivers reduced to dust.|
+
+|5sorcery|4|6|7|8|9converge ~ draw X cards, where X is the number of colors of mana spent to cast @. then discard two cards.|3|0|1brilliant spectrum|`there are more sights on zendikar than the eyes can see.|
+
+|5creature|4|6eldrazi|7|8&^^^^^^^^^^/&^^^^^^^^^^|9when you cast @, put a &^^^^^^^^^^/&^^^^^^^^^^ colorless eldrazi creature token onto the battlefield.|3|0|1desolation twin|`"with precise coordination and enough blood spilled, one can be driven off, even brought down. but two . . . that's a lot of blood."~munda, ambush leader|
+
+|5creature|4|6ally merfolk scout|7|8&^^/&^|9{^^^^UU}: target creature can't be blocked this turn.|3|0|1coralhelm guide|`"she knows every step of this coastline, both above and below the surface, and she has hideouts all along the way. she will get you there."~jori en, expedition leader|
+
+|5enchantment|4|6aura|7|8|9enchant creature\enchanted creature gets +&^^/+&^^ and has haste.|3|0|1goblin war paint|`war paint made from kolya fruit heightens senses and lessens fear. unfortunately, fear is usually what keeps you alive.|
+
+|5creature|4|6ally cleric vampire|7|8&^^/&^^|9flying\at the beginning of your upkeep, each opponent loses &^ life and you gain &^ life.|3|0|1drana's emissary|`"the taste of freedom is sweeter than blood."|
+
+|5artifact|4|6|7|8|9when @ enters the battlefield, exile all creatures with power &^^^^^ or greater until @ leaves the battlefield.|3|0|1aligned hedron network|`the last hedron slotted into place, locking ulamog in an infinite loop of binding energy.|
+
+|5creature|4|6angel|7|8&^^^^/&^^^^|9flying\landfall ~ whenever a land enters the battlefield under your control, you may return target nonland permanent card from your graveyard to your hand. if that land is a plains, you may return that nonland permanent card to the battlefield instead.|3|0|1emeria shepherd|`|
+
+|5sorcery|4|6|7|8|9target creature gets -&^^^^^/-&^^^^^ until end of turn.|3|0|1demon's grasp|`"take what solace you can in the knowledge that you will not be here to witness zendikar's demise."~ob nixilis|
+
+|5land|4basic|6forest|7|8|9|3|0|1forest|`|
+
+|5creature|4legendary|6ally vampire|7|8&^^/&^^^|9flying\first strike\whenever @ deals combat damage to a player, put a +&^/+&^ counter on each attacking creature you control.|3|0|1drana, liberator of malakir|`"i will not live as a slave. if you would be free, then fight alongside me."|
+
+|5creature|4|6wall|7|8&/&^^^^^^|9defender|3|0|1fortified rampart|`the refuge's defenses allow new recruits to see lesser eldrazi up close, steeling their stomachs for what's to come.|
+
+|5creature|4|6drone eldrazi|7|8&^^/&^^|9devoid\ingest|3|0|1culling drone|`silence rules bala ged, broken only by the skittering of eldrazi.|
+
+|5creature|4|6eldrazi|7|8&/&|9@ enters the battlefield with X +&^/+&^ counters on it.|3|0|1endless one|`it embodies all possible meanings of the word "infinite."|
+
+|5instant|4|6|7|8|9as an additional cost to cast @, sacrifice a creature.\draw two cards.|3|0|1altar's reap|`"the demons don't care if we mutter niceties and act out ceremonies. just kill him."
+~bishop volpaig, servant of griselbrand|
+
+|5creature|4|6ally kor scout|7|8&^/&^|9{^^^^WW}: creatures you control get +&^/+&^ until end of turn.|3|0|1cliffside lookout|`though losses run high among the scouts of the stone havens, they never flinch from their duty.|
+
+|5creature|4|6ally druid elf|7|8&^^^/&^^^|9rally ~ whenever @ or another ally enters the battlefield under your control, you may pay {^}. if you do, put a &^/&^ green plant creature token onto the battlefield.|3|0|1grovetender druids|`"the seedlings scream for us to loose them upon the eldrazi, and we shall oblige."|
+
+|5creature|4|6dragon|7|8&^^^^/&^^^^|9flying\landfall ~ whenever a land enters the battlefield under your control, @ deals &^ damage to target creature or player. if that land is a mountain, @ deals &^^ damage to that creature or player instead.|3|0|1akoum hellkite|`|
+
+|5instant|4|6|7|8|9look at the top three cards of your library. put one of them into your hand and the rest on the bottom of your library in any order.|3|0|1anticipate|`"when i have meditated on all outcomes, my opponent has no recourse."|
+
+|5creature|4|6ally angel|7|8&^^^^/&^^^|9flying\whenever @ attacks, it gets +&^/+&^ until end of turn for each other attacking ally.|3|0|1angelic captain|`as the soldiers beneath her raised their voices, the angel spread her wings, their span seeming to cover the sky.|
+
+|5creature|4|6kor spirit|7|8&^^^/&^^^|9flying\vigilance|3|0|1ghostly sentinel|`mystics of the stone havens call upon the spirits of fallen heroes to defend the refuges.|
+
+|5creature|4|6drone eldrazi|7|8&^^^/&^^|9devoid\ingest\when @ enters the battlefield, if you control another colorless creature, each opponent loses &^^ life.|3|0|1dominator drone|`|
+
+|5creature|4|6sphinx|7|8&^^^^/&^^^^^|9flying\landfall ~ whenever a land enters the battlefield under your control, tap target creature an opponent controls. if that land is an island, that creature doesn't untap during its controller's next untap step.|3|0|1guardian of tazeem|`|
+
+|5creature|4|6elemental|7|8&^^^/&^^|9menace\landfall ~ whenever a land enters the battlefield under your control, @ gets +&^^/+&^^ until end of turn.|3|0|1geyserfield stalker|`|
+
+|5instant|4|6|7|8|9devoid\exile target creature and target land.|3|0|1grip of desolation|`as the hand closed, there was first terror, then numbness, and finally nothingness.|
+
+|5sorcery|4|6|7|8|9devoid\exile target nonbasic land. search its controller's graveyard, hand, and library for any number of cards with the same name as that land and exile them. then that player shuffles his or her library.|3|0|1crumble to dust|`|
+
+|5sorcery|4|6|7|8|9awaken &^^^^~{^^^^^^RR}\@ deals &^ damage to each creature your opponents control.|3|0|1boiling earth|`|
+
+|5creature|4|6drone eldrazi|7|8&^^^/&^^|9devoid\{^}: target colorless creature gains haste until end of turn.|3|0|1forerunner of slaughter|`"while we delay, they're on the move. they will not wait as we bicker. we are losing this war by moments as our goal slips beyond our reach."
+~gideon jura|
+
+|5creature|4|6ally angel|7|8&^^^^/&^^^^|9flying\when @ enters the battlefield, you gain &^ life for each creature you control.|3|0|1angel of renewal|`"no more fear. no more failure. no more death. no more!"|
+
+|5creature|4|6eldrazi|7|8&^^^^^/&^^^^^|9when you cast @, you may search your library for a colorless creature card with converted mana cost &^^^^^^^ or greater, reveal it, then shuffle your library and put that card on top of it.\the first creature spell you cast each turn costs {^^} less to cast.|3|0|1conduit of ruin|`|
+
+|5sorcery|4|6|7|8|9awaken &^^^^~{^^^^^UU}\draw two cards.|3|0|1coastal discovery|`|
+
+|5creature|4|6vampire|7|8&^^^/&^^^^|9flying\landfall ~ whenever a land enters the battlefield under your control, other creatures you control get +&^/+& until end of turn. if that land is a swamp, those creatures get +&^^/+& until end of turn instead.|3|0|1guul draz overseer|`|
+
+|5creature|4|6eldrazi|7|8&^^^^^^/&^^^^^^|9vigilance\sacrifice two eldrazi scions: return @ from your graveyard to your hand. activate this ability only any time you could cast a sorcery.|3|0|1deathless behemoth|`"over and over it rose. over and over we fell."~ganda, goma fada deserter|
+
+|5enchantment|4|6|7|8|9creatures your opponents control get -&^/-&.|3|0|1dampening pulse|`"quiet now, you dreadful vermin."~noyan dar, tazeem roilmage|
+
+|5land|4|6|7|8|9@ enters the battlefield tapped.\when @ enters the battlefield, you may look at the top five cards of your library. if you do, reveal up to one basic land card from among them, then put that card on top of your library and the rest on the bottom in any order.\T: add {GG} to your mana pool.|3|0|1fertile thicket|`|
+
+|5creature|4|6eldrazi|7|8&^^^^^/&^^^|9devoid\haste\at the beginning of each end step, if you control no other colorless creatures, return @ to its owner's hand.|3|0|1dust stalker|`the only traces it leaves are silent gusts and prodigious amounts of wreckage.|
+
+|5creature|4|6elemental|7|8&^^^^^/&^^^^|9when @ enters the battlefield, you may return target card from your graveyard to your hand.\when @ dies, you may exile it. if you do, return target card from your graveyard to your hand.|3|0|1greenwarden of murasa|`|
+
+|5creature|4|6eldrazi|7|8&^^^^^^^^^^/&^^^^^^^^|9all creatures able to block @ do so.|3|0|1breaker of armies|`"there are some who have lost everyone and everything. they actively seek out the eldrazi, eager for the smallest measure of vengeance."~munda, ambush leader|
+
+|5creature|4|6ally elf shaman|7|8&^/&^|9haste\T: add one mana of any color to your mana pool. spend this mana only to cast a creature spell.|3|0|1beastcaller savant|`"they come because i call. they stay because i listen."|
+
+|5sorcery|4|6|7|8|9awaken &^^^~{^^^^UU}\return target creature to its owner's hand.|3|0|1clutch of currents|`|
+
+|5creature|4|6ally assassin human|7|8&^^/&^^|9{^^^^BB}: target creature gets -&^/-&^ until end of turn.|3|0|1hagra sharpshooter|`"it's hard to find their weak points, but i very much enjoy the discovery process."|
+
+|5instant|4|6|7|8|9awaken &^^~{^^^^WW}\prevent all combat damage that would be dealt this turn by creatures target opponent controls.|3|0|1encircling fissure|`|
+
+|5creature|4|6beast cat|7|8&^^/&^^|9sacrifice @: destroy target enchantment.|3|0|1felidar cub|`felidars that make it through their first year of life can easily live to see a hundred years more.|
+
+|5land|4|6forest plains|7|8|9\@ enters the battlefield tapped unless you control two or more basic lands.|3|0|1canopy vista|`|
+
+|5creature|4|6eldrazi processor|7|8&^^^/&^^^|9devoid\{^^UU}, put a card an opponent owns from exile into that player's graveyard: tap target creature.|3|0|1cryptic cruiser|`"the seas are no less imperiled than the dry lands. this fight is mine as much as it is yours."~kiora, to gideon jura|
+
+|5creature|4|6human shaman|7|8&^^/&^|9landfall ~ whenever a land enters the battlefield under your control, you may pay {^^RR}. if you do, put a &^^^/&^ red elemental creature token with trample and haste onto the battlefield. exile that token at the beginning of the next end step.|3|0|1akoum stonewaker|`|
+
+|5instant|4|6|7|8|9uncast target instant spell.|3|0|1dispel|`"civilization will subsume us unless we overwhelm it instead."
+~speaker zegana|
+
+|5sorcery|4|6|7|8|9return up to two target creature cards from your graveyard to your hand.|3|0|1dutiful return|`"we have a word for enemies too mutilated for military service: furniture."
+~taigam, sidisi's hand|
+
+|5planeswalker|4|6gideon|7&^^^^|8|9+&^: until end of turn, @ becomes a &^^^^^/&^^^^^ human soldier ally creature with indestructible that's still a planeswalker. prevent all damage that would be dealt to him this turn.\&: put a &^^/&^^ white knight ally creature token onto the battlefield.\-&^^^^: you get an emblem with "creatures you control get +&^/+&^."|3|0|1gideon, ally of zendikar|`|
+
+|5creature|4|6beast cat|7|8&^^^^/&^^^^^^|9vigilance\lifelink\at the beginning of your upkeep, if you have forty or more life, you win the game.|3|0|1felidar sovereign|`"if survival is a game, i've seen the winner."
+~hazir, sejiri cartographer|
+
+|5sorcery|4|6|7|8|9awaken &^^^^~{^^^^^^GG}\put two +&^/+&^ counters on target permanent.|3|0|1earthen arms|`|
+
+|5artifact|4|6equipment|7|8|9equip {^^}\equipped creature gets +&^/+&^.\whenever equipped creature becomes blocked by one or more colorless creatures, it gains deathtouch until end of turn.|3|0|1hedron blade|`|
+
+|5sorcery|4|6|7|8|9converge ~ search your library for a creature, instant, or sorcery card with converted mana cost less than or equal to the number of colors of mana spent to cast @, exile that card, then shuffle your library. you may cast that card without paying its mana cost.|3|0|1bring to light|`|
+
+|5creature|4|6drone eldrazi|7|8&^/&^^^^|9devoid\ingest\@ can't be blocked.|3|0|1benthic infiltrator|`|
+
+|5creature|4|6ally human scout|7|8&^^/&^|9|3|0|1expedition envoy|`the unofficial motto of every expedition house is "ready for anything," a phrase whose significance has been amplified since the emergence of the eldrazi.|
+
+|5land|4|6|7|8|9T, sacrifice @: search your library for a basic land card and put it onto the battlefield tapped. then shuffle your library.|3|0|1evolving wilds|`every world is an organism, able to grow new lands. some just do it faster than others.|
+
+|5creature|4|6eldrazi|7|8&^^^^^^^^/&^^^^^^^^^|9trample|3|0|1eldrazi devastator|`"no matter how big your champion, theirs is bigger. no matter how great your numbers, theirs are greater. no matter how voracious your appetite, they are hungrier. that is why the eldrazi will win."~kalitas, thrall of ulamog|
+
+|5instant|4|6|7|8|9@ deals &^^^^ damage to target attacking or blocking creature.|3|0|1gideon's reproach|`"suddenly, gideon was there with us, clearing the way so that we could escape."~the war diaries|
+
+|5enchantment|4|6aura|7|8|9enchant creature\when @ enters the battlefield, draw a card.\enchanted creature has flying.|3|0|1angelic gift|`"zendikar will triumph this day, and our armies will fly with angels."|
+
+|5sorcery|4|6|7|8|9until end of turn, colorless creatures you control gain "T: this creature deals damage equal to its power to target creature."|3|0|1gruesome slaughter|`though gideon arrived at sea gate too late to prevent the massacre, he still had enough time to lead its survivors to relative safety.|
+
+|5creature|4|6eldrazi|7|8&^^^^^/&^^^|9devoid\{^^RR}, sacrifice another colorless creature: @ deals damage equal to the sacrificed creature's power to target creature or player.|3|0|1barrage tyrant|`terrible fury. excellent aim.|
+
+|5sorcery|4|6|7|8|9converge ~ gain control of target creature if its power is less than or equal to the number of colors of mana spent to cast @.|3|0|1exert influence|`"i can't control its mind~i'm not even sure it has one. but i can dominate its will."|
+

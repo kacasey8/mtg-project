@@ -1,0 +1,72 @@
+_NONAME_ _NOCOST_ _INVALID_
+creating an LSTM...
+~~~~~~~~
+_NONAME_ _NOCOST_ _INVALID_
+missing seed text, using uniform probability over first character
+~~~~~~~~
+_NONAME_ _NOCOST_ _INVALID_
+--------------------------
+~~~~~~~~
+past herenk {2} _INVALID_
+Garruking moonhoul creature you control to its owner's hand. hge creatures have first strike.\tap on untap seven or more % counters from @: exile target creature that player controls. (uncommon)
+
+squim~pield the kama {R}
+Garrukact (uncommon)
+{2}, {T}: put a 3/4 black zombie creature token onto the battlefield.
+
+phoster burge {3}{W}
+Garruka (uncommon)
+{T}: add {G} to your mana pool.
+when @ enters the battlefield, you gain 3 life."
+
+strate of tte of fullest {5}
+Garruka (common)
+{T}: add {R} or {R} to your mana pool.
+
+bonsorp {B}
+Garrukact onco (common)
+{2}{B}, remove a +1/+1 counter from @: @ deals 3 damage to target player.
+
+laketherva's sliver {2}{U}
+Garruka (uncommon)
+at the beginning of the end step, if you control a permanent, put a +1/+1 counter on it can't be blocked each turn.
+
+foreshi {2}{U}
+Garruka (common)
+{T}: add {R} or {W} to your mana pool, @ enters the battlefield that's a creature with flying.
+
+sersoned arbador {9}
+Garrukact (rare)
+{5}, {T}, sacrifice @ unless you lose the game.
+whenever you cast a dragon card with converted mana cost 2 or less is the exiled card has first strike, where X is its power.
+
+nouro's perher {2}{B}
+Garruka (uncommon)
+you may remove a % counter from @: you gain life equal to the number of cards in the player's graveyard.
+threshold ~ that creature you control gets +1/+1 until end of turn. activate this ability only any time you could cast a sorcery.
+
+chummany scropcering {3}{B}{R}
+Garrukalt (uncommon)
+{3}, {T}: uncast target spell unless its controller pays {1}."
+
+ahoven sotion {5}{U}
+Garruk creature ~ golem (rare)
+@ enters the battlefield with a +1/+1 counter on @.
+(2/2)
+
+tumper cules _NOCOST_
+Garrukact (common)
+at the beginning of your upkeep, you gain 2 life.
+{T}: add {R} or {R} to your mana pool.
+
+gorena's lightning {1}{R}
+Garrukact (rare)
+at the beginning of your upkeep, @ deals 3 damage to target creature or player.
+
+_NONAME_ _NOCOST_ _INVALID_
+Garrukact
+{4}, {T}: target player loses life equal 
+~~~~~~~~
+_NONAME_ _NOCOST_ _UNPARSED_ _INVALID_
+
+
