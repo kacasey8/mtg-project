@@ -5,17 +5,20 @@ def find_all_cards_in_format(mtg_format_name):
   cards = []
   page_number = 0
   while True:
+    # the API returns 100 cards at a time. Hard to tell when there
+    # are no more cards to get, thus the while True
     url = 'https://api.deckbrew.com/mtg/cards?page=%s&format=%s' % (str(page_number), mtg_format_name) 
     response = requests.get(url)
     response_cards = json.loads(response.text)
     if len(response_cards) == 0:
+      # this signifies there are no more cards to pull out.
       break
     for card in response_cards:
       cards.append(card)
     page_number += 1
   return cards
 
-if True:
+if False:
   # change this to False to not get the standard cards.
   # this should take under 15 seconds
   standard_cards = find_all_cards_in_format('standard')
@@ -30,7 +33,7 @@ if False:
   f_modern = open('modern_cards.json', 'w')
   f_modern.write(json.dumps(modern_cards))
 
-if False:
+if True:
   # change this to True to get all the legacy cards.
   # doing this should take around 3 minutes
   legacy_cards = find_all_cards_in_format('legacy')

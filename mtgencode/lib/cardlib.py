@@ -256,6 +256,10 @@ def fields_from_json(src_json, linetrans = True):
         name_orig = ''
         parsed = False
 
+    if 'cost' in src_json and 'manaCost' not in src_json:
+        # hacky way to get processing to line up
+        src_json['manaCost'] = src_json['cost']
+
     # return the actual Manacost object
     if 'manaCost' in src_json:
         cost =  Manacost(src_json['manaCost'], fmt = 'json')
@@ -328,7 +332,7 @@ def fields_from_json(src_json, linetrans = True):
 
     if 'flavor' in src_json:
         text_val = src_json['flavor'].lower()
-        text_val = utils.to_ascii(text_val)
+        text_val = utils.to_ascii(text_val).encode('ascii', 'ignore')
         text_val = text_val.strip()
         fields[field_flavor] = [(-1, text_val)]
 
