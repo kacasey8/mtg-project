@@ -39,6 +39,34 @@ def _ycc(r, g, b): # in (0,255) range
   cr = 128 +.5*r - .418688*g - .081312*b
   return y, cb, cr
 
+def get_card_database():
+  database = collections.defaultdict(list)
+  cards_sample = open('large_sample_readable.cards', 'r')
+  content = cards_sample.read()
+  # the cards are split by \n\n from mtgencode
+  cards = content.split('\n\n')
+  real_cards = []
+  possible_colors = {'R' : 'Red', 'U' : 'Blue', 'G' : 'Green', 'B' : 'Black', 'W' : 'White'}
+  for card in cards:
+    if '~~~~~~~~' in card:
+      # not a real card, some kind of marker.
+      continue
+    real_cards.append(card)
+    lines = card.split('\n')
+    first_line = lines[0] # first line has mana cost info
+    mana_cost = first_line.split(' ')[-1]
+
+    colors = []
+    for color in possible_colors:
+      if color in mana_cost:
+        colors.append(possible_colors[color])
+
+    colors_string = ','.join(colors)
+    database[colors_string].append(card)
+
+  return database
+
+
 class CardGenerator:
 
   def __init__(self, labels, color_info):
@@ -61,10 +89,24 @@ class CardGenerator:
     else:
       self.color = None
 
-  def generate_card_name(self):
-    # uses color, and labels to generate a name
+  def generate_playable_card(self):
+    # uses color, and labels to generate a name and all relevant abilities
     self.name = "Maw of Kozilek"
-    import pdb; pdb.set_trace()
+    database = get_card_database()
+
+    import random
+    card = random.choice(database[self.color])
+    lines = card.split('\n')
+    name_and_mana_cost = lines[0].split()
+    self.name = ' '.join(name_and_mana_cost[:-1])
+    self.mana_cost = name_and_mana_cost[-1]
+    self.type = lines[1]
+    if 'creature' in self.type:
+      self.rules = '\n'.join(lines[2:-1])
+      self.power_toughness = lines[-1]
+    else:
+      self.rules = '\n'.join(lines[2:])
+      self.power_toughness = None
 
   def generate_card_flavor_text(self):
     # uses the card name, and maybe labels or color to generate flavor
@@ -82,9 +124,8 @@ class CardGenerator:
 
   def generate(self):
     self.generate_card_color()
-    self.generate_card_name()
+    self.generate_playable_card()
     self.generate_card_flavor_text()
-    self.generate_card_abilities()
     self.generated = True
 
   def __str__(self):
