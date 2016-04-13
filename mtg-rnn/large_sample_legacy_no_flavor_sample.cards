@@ -1,0 +1,1270 @@
+creating an lstm...	
+missing seed text, using uniform probability over first character	
+--------------------------	
+juke refolk until end of turn.|3{^GG}|0|1frosting golem|
+
+|5creature|4|6goblin shaman|7|8&^/&^|9when @ enters the battlefield, return a creature you control to its owner's hand.\each artifact card is pay &^ or less, sacrifice it.\tap two untapped creatures you control: @ deals &^ damage to target player.|3{^^RR}|0|1goblin of the liftling|
+
+|5instant|4|6|7|8|9each player reveals his or her hand. exile those cards.|3{^^UUUU}|0|1molners' heating|
+
+|5creature|4|6goblin monk|7|8&^/&^|9protection from black\{UU}: draw a card.\countertype % charge|3{^^}|0|1reasth warrood|
+
+|5instant|4|6|7|8|9target creature gains haste until end of turn.|3{^^^}|0|1sirenew of the opring|
+
+|5creature|4|6soldier spirit|7|8&^^/&^|9haste\@ enters the battlefield with a % counter on it.\tap an untapped sergent &^^^^^~~\@ enters the battlefield with three % counters on it.\remove a % counter from @: add {BBBB} to your mana pool. = @ deals &^ damage to target noncreature artifact, creature, or land you control without flying.|3{^^RR}|0|1hunts of spirit|
+
+|5creature|4|6goblin mutant|7|8&^^^/&^^^^|9trample|3{^^GGGG}|0|1gorilad temple|
+
+|5artifact|4legendary|6|7|8|9{^^}, T: untap target artifact.|3{^^^RR}|0|1plade spark|
+
+|5creature|4|6human warrior|7|8&^^/&^^|9at the beginning of your upkeep, destroy all other creatures.|3{^^UU}|0|1crysting suns|
+
+|5instant|4|6|7|8|9creatures can't attack this turn.|3{^^GG}|0|1villen of bord|
+
+|5creature|4|6horror beast|7|8&^^^/&^|9fear\haste\you may pay {^}. if you do, tap target creature.|3{^^UU}|0|1ronghers of aura|
+
+|5instant|4|6|7|8|9destroy all artifacts.|3{WWWW}|0|1shine of unkelp|
+
+|5artifact|4|6|7|8|9{^^^}, T: return target red creature card from your graveyard to your hand.|3{^^^}|0|1mless of sharow|
+
+|5artifact|4|6equipment|7|8|9equip {^}\equipped creature gets +&^/+&.\whenever enchanted creature dies, you may discard that card.|3{^^BBBB}|0|1desinity sornering|
+
+|5sorcery|4|6|7|8|9target player sacrifices a creature.|3{BBBB}|0|1shut|
+
+|5artifact creature|4|6golem|7|8&^^^^^/&^^^^^|9if you control a plains, look at the top five cards of your library. if it's a creature card, drew that many creature cards.|3{^^^^^BBBB}|0|1ox devourer|
+
+|5creature|4|6human soldier|7|8&^^/&^^|9{^RRRR}: target creature gets +&^^/+&^ and gains trample until end of turn.|3{^^GGGG}|0|1obitegotion|
+
+|5instant|4|6|7|8|9tap all nonbasic lands you control.|3{^}|0|1crouddraze iresfuton|
+
+|5enchantment|4|6|7|8|9at the beginning of your upkeep, sacrifice it unless you pay {^^RR}.\remove a % counter from @: put a &^^/&^^ green wolf creature token onto the battlefield.\{^^RR}: @ gets +&^/+&^ until end of turn.|3{WW}|0|1sarktle cage valor|
+
+|5creature|4|6spirit|7|8&/&^|9flying|3{^^^}|0|1remismance|
+
+|5creature|4|6bird rogue|7|8&^/&^|9flying\whenever @ or another enchantment is put into a graveyard from the battlefield, you gain life equal to the number of % counters on @.\at the beginning of your upkeep, aad put a &^/&^ colorless insect for each creature he or she controls token with flying onto the battlefield for each creature card in your graveyard.\draw two cards.|3{WWWWWW}|0|1myr mersignist|
+
+|5enchantment|4|6aura|7|8|9enchant creature\enchanted creature gets +&^^/+&^^ and has reach.|3{^BBRR}|0|1spiritaa sisens|
+
+|5sorcery|4|6|7|8|9suspend &^^^~{WW}\target player reveals the top two cards of his or her library into his or her graveyard.|3{^^UU}|0|1ulbrick|
+
+|5creature|4|6beast|7|8&^^^/&^^^|9islandwalk\protection from white|3{WW}|0|1lash movining|
+
+|5creature|4|6specter|7|8&^/&^|9flying whenever @ attacks, return it to its owner's hand.|3{^UU}|0|1dothinite|
+
+|5enchantment|4|6|7|8|9{^}: each opponent puts the top three cards of his or her library into his or her graveyard.|3{^^^^}|0|1cirol spirit|
+
+|5artifact creature|4|6construct|7|8&/&|9drad for at land has shroud: you may reveal a card, put that card onto the battlefield tapped under your control.|3{^^^GG}|0|1bonded knight|
+
+|5creature|4|6bird|7|8&^/&^^|9flying\@ gets +&^/+&^ for each borbirity dragons you control.\{WW}: @ becomes a &^^/&^^ artifact creature red and white forest.|3{UURRUU}|0|1spirit deber|
+
+|5creature|4|6druid human|7|8&^/&^|9T: target permanent deals damage equal to its power to target creature.|3{RR}|0|1rebardure master|
+
+|5sorcery|4|6|7|8|9destroy target creature. you may put a creature card from among them onto the battlefield. then shuffle your library.|3{^GG}|0|1faithbear deever|
+
+|5instant|4|6|7|8|9uncast target spell. if you control no more than two or more blue permanents, exile @.|3{^^UUUU}|0|1uumblana rapid|
+
+|5creature|4|6bird soldier|7|8&^/&^^^|9flying\sacrifice @: draw three cards. then that player sacrifices a creature with defender.|3{^^^RR}|0|1stankering nebre|
+
+|5sorcery|4|6|7|8|9destroy target creature. its controller puts the top two cards of his or her library into his or her graveyard. if you do, you may look at the top two cards of your library. you may reveal a creature card from his or her hand and exile that player's hand until end of turn. they gain "sacrifice @: @ deals &^ damage to target player.|3{^^RR}|0|1isneffer|
+
+|5creature|4|6cat warrior|7|8&^^/&^^|9T: nontoken creature you control gains defender until end of turn.|3{^GG}|0|1hable of the dents|
+
+|5instant|4|6|7|8|9@ deals &^ damage to each of those creatures as long as you control a red or blue creature.\{^^}, T: untap target opponent. if you lose the flip, shuffle your library.|3{^^^^}|0|1jeins vanso|
+
+|5creature|4legendary|6phoenix|7|8&^^^/&^^^|9flying\{BB}: regenerate @.|3{^BBBB}|0|1jightial assessing|
+
+|5creature|4|6goblin shaman|7|8&^/&^|9T, sacrifice @: target creature gets +&^^/+&^^ until end of turn. activate this ability only once each turn. it gains haste until end of turn.|3{UU}|0|1saed~rift skychanner|
+
+|5artifact|4|6|7|8|9{^^^}, T: tap target permanent.|3{^}|0|1pandent kami|
+
+|5enchantment|4|6aura|7|8|9enchant creature\enchanted creature gets -&^^/-&^^.|3{WW}|0|1figot weakring|
+
+|5creature|4|6bird|7|8&^^/&^^|9flying\@ can't be blocked.|3{^BB}|0|1dovinitus archor|
+
+|5enchantment|4|6aura|7|8|9enchant creature\@ enters the battlefield with an X/+& green spirit creature with mountain.\{WW}: @ becomes a blue green spirit creature with flying. it can't be regenerated.|3{GG}|0|1allaging astages|
+
+|5creature|4|6beast|7|8&^^^^^/&^^^^^|9at the beginning of each upkeep, if no spells were cast last turn, transform @.|3{}|0|1nethed spring wor|
+
+|5creature|4|6human knight|7|8&^^/&^^|9flying\when @ enters the battlefield, tap any number of lands you control. you may put a kithkin card with converted mana cost X. each player draws two cards.|3{^^^RR}|0|1ramborn fuature|
+
+|5sorcery|4|6|7|8|9exile all cards from target player's library. if that player does, tap that creature that player controls, then put a +&^/+&^ counter on target creature or player. until end of turn, it gains haste until end of turn.|3{^RR}|0|1night|
+
+|5creature|4|6cocodule for shaman|7|8&^^^/&^^^|9whenever you cast a spell, return target land you control to its owner's hand."\{^^WW}: basic land you control gains  as long as there are four or more card types among cards in your graveyard.|3{^^UU}|0|1shambling to^taker|
+
+|5creature|4|6elemental|7|8&^^^^^^^^/&^^^^^^^^|9infect|3{^^^^^^^^GG}|0|1rurd of formeate|
+
+|5creature|4|6spiker|7|8&^^^/&^|9whenever @ becomes blocked, defending player sacrifices a third an additional that player.|3{^^RRRR}|0|1deadtoor lack|
+
+|5creature|4|6rat|7|8&^^^/&^^^|9whenever @ becomes blocked by a creature with toughness becomes pay @'s mana cost, each player returns hal swamps you control. you may cast that card to his or her hand.|3{^^UU}|0|1rever light|
+
+|5sorcery|4|6|7|8|9@ deals &^^ damage to target creature or player.|3{^^^RR}|0|1woodshoft|
+
+|5enchantment|4|6aura|7|8|9enchant creature\cycling {^^}\enchanted creature has "T: add {BBBB} to your mana pool."\{^^^BBBB}, T: destroy target enchantment. it can't be regenerated.|3{^^BBBB}|0|1vartiver funge|
+
+|5instant|4|6|7|8|9persa it target player's library for a basic land card, reveal it, and put it into your hand. then shuffle your library.|3{^^^GGGGGG}|0|1punded wolf|
+
+|5creature|4|6drake|7|8&^^/&^^|9flying\{^UUUU}, T: return target kalry become &^^^^^^^^/&^^^^^^^^ golem artifact creature with nontoken creature you control.|3{^^^GGGG}|0|1hystalestian|
+
+|5instant|4|6|7|8|9detain target creature you don't control. creatures can't block this turn.]|3{^RR}|0|1adukin doerge|
+
+|5creature|4|6vampire|7|8&^^^/&^^^|9whenever @ becomes blocked, it gains shroud until end of turn.|3{^^BB}|0|1koldreee gise|
+
+|5artifact|4|6|7|8|9T: add {WW} to your mana pool.|3{^^}|0|1goblin lemiance|
+
+|5creature|4|6spirit|7|8&^/&^|9changeling\@ attacks each turn if able.\T: add {RR} or {BB} to your mana pool.\{UU}: untap that creature. activate this ability only if ther are no % counters on it.\{^}, T, sacrifice @: @ deals &^^ damage to target creature or player.|3{^^BB}|0|1wilden mage|
+
+|5creature|4|6bear|7|8&^/&^|9whenever @ becomes blocked, it gets +&^/+&^ until end of turn.\{BBBB}, T: you may put an artifact or enchantment on top of its owner's library instead.|3{^^^RR}|0|1carrum staurip|
+
+|5creature|4|6lizard|7|8&^^/&^^|9whenever another creature dies, put a &^/&^ green saproling creature token onto the battlefield.\-&^^^^: flip a coin. if you win the flip, if you control a permanent or player, exile that card.|3{^^^^BB}|0|1shirli guilds|
+
+|5creature|4|6goblin warrior|7|8&^^/&^^|9{^WWUU}, T: you may put a creature card from your hand onto the battlefield. otherwise, put them onto the battlefield. then shuffle your library.|3{^^^BB}|0|1shreeching sphyre|
+
+|5creature|4|6human rogue|7|8&^^/&^|9flying\draw a card.|3{^^UU}|0|1kreadoor of schoen|
+
+|5creature|4|6human knight|7|8&/&^|9T: put a +&^/+&^ counter on it.|3{^^WW}|0|1salvage spirit|
+
+|5enchantment|4|6aura|7|8|9enchant creature\enchanted creature's controller discards a card.|3{^^UUUU}|0|1ciller of nawokg|
+
+|5creature|4|6spirit|7|8&^^/&^^|9morph {GGGG}\whenever @ deals combat damage to a player, you may sacrifice a creature. target opponent reveals the top six cards of his or her library. you may put a creature card from it onto the battlefield. then shuffle your library.|3{GG}|0|1vasalian goblin|
+
+|5artifact|4|6|7|8|9{^^}, T: target player gains &^^ life.|3{UUUU}|0|1didnet rats|
+
+|5creature|4|6elf shaman|7|8&^/&^|9{UU}: regenerate @.|3{^WW}|0|1magnation bakil|
+
+|5instant|4|6|7|8|9target creature gains haste until end of turn. draw a card.|3{^GG}|0|1defenter of the chand|
+
+|5creature|4|6ally warrior|7|8&^/&^|9first strike\vigilance\{^WW}: @ gets +&^/+&^ until end of turn.\{BBRRRR}: return @ to its owner's hand. = return target mone one or more or two this creature.|3{^^^BB}|0|1pynige aveny|
+
+|5sorcery|4|6|7|8|9convoke\search your library for a basic land card, reveal it, put it into your hand, you choose two or more +&^/+&^ counters on @ and put them onto the battlefield. then shuffle your library.|3{^^WWWW}|0|1tub~ sentinel|
+
+|5artifact|4|6equipment|7|8|9equip {^^}\equipped creature gets +&^/+& and has flying.|3{RR}|0|1ancestral grave|
+
+|5creature|4|6human knight|7|8&^/&^^|9flying\when @ enters the battlefield, target creature can't be blocked this turn.|3{^^^GG}|0|1aphedomouse|
+
+|5creature|4|6spirit|7|8&^^^^/&^^^^|9at the beginning of each upkeep, if no spells were cast last turn, transform @.|3{^^GGGG}|0|1adrid golem|
+
+|5instant|4|6|7|8|9until end of turn, any number of target players' pays {RR}.\T: target creature gets -&^/-&^ and gains trample until end of turn.|3{^GG}|0|1silarmling|
+
+|5creature|4|6bird|7|8&^/&^|9flying\indestructible\@ enters the battlefield with X % counters on it.\at the beginning of each upkeep, if no spells were cast last turn, transform @.|3{^GG}|0|1cloudshater monker|
+
+|5creature|4|6bear|7|8&^^/&^|9forestwalk\{RR}: @ gets +&^/+&^ until end of turn and can't be blocked this turn.|3{^GGGG}|0|1preaking walker|
+
+|5sorcery|4|6|7|8|9return target permanent to its owner's hand.|3{^UUUU}|0|1aven itlusance|
+
+|5instant|4|6|7|8|9until end of turn, creatures you control gain first strike until end of turn.|3{RRGG}|0|1keding stiller|
+
+|5enchantment|4|6|7|8|9flash\at the beginning of your upkeep, put a +&^/+&^ counter on @.|3{^BB}|0|1roodnuse vortrag|
+
+|5sorcery|4|6|7|8|9flashback {^^^^^^GGGG}\target land becomes the color of your choice until end of turn.|3{^UUUU}|0|1loxoding patroler|
+
+|5creature|4|6goblin warrior|7|8&^^/&^^^|9protection from red|3{^^^UU}|0|1terparian skeleton|
+
+|5creature|4|6avatar|7|8&^^^^^/&^^^^^|9flying\when @ enters the battlefield, return target creature to its owner's hand.|3{^^^^^UUUUBBRR}|0|1dread respines|
+
+|5creature|4|6beast|7|8&^^^^^/&^^^^^|9{^^WW}: target creature gains protection from the color of your choice until end of turn. untap that creature. untap that creature.|3{^^^^^^BB}|0|1stredg timbor|
+
+|5enchantment|4|6|7|8|9whenever a player loses &^^^^ life and that spell can't be uncasted.\if a creature dealt damage by @ this turn, tap two untapped versing its controller's turn.|3{^^WWWW}|0|1rodian drake|
+
+|5artifact|4|6equipment|7|8|9equip {^}\equipped creature gets +&^/+&^ for each card sifror counter on it.|3{^^BB}|0|1privel manoissterm|
+
+|5creature|4|6human wizard|7|8&^^/&^|9{UU}, T: put target land on top of its owner's library instead.\countertype % depletion|3{}|0|1number harvest|
+
+|5enchantment|4|6|7|8|9creatures you control get +&^/+&^.\morbid ~ exile @ from your graveyard: put a &^/&^ green skilling creature token onto the battlefield.|3{^^RRRR}|0|1guidy caster|
+
+|5instant|4|6|7|8|9until end of turn, @ becomes a -&^/-&^ counter on @.|3{^^WW}|0|1silder purse|
+
+|5land|4|6|7|8|9@ enters the battlefield tapped.\T: add {GG} to your mana pool.|3{}|0|1elder berserker|
+
+|5creature|4|6spirit|7|8&^^^/&^^^|9prowess\trample\when @ enters the battlefield, flip a coin. if you lose the flip, sacrifice @.\whenever @ deals combat damage to a player, put a +&^/+&^ counter on it.|3{^^^^^}|0|1vodblaze mardlar|
+
+|5creature|4|6human wizard|7|8&^/&^|9devoid\other enchantment spells you cast cost {WW} more to cast.|3{^^}|0|1undoning sarridian|
+
+|5creature|4|6yruid|7|8&^/&^^^|9whenever @ becomes untapped, its controller loses that much life instead.|3{^^^RR}|0|1theunring milestalker|
+
+|5creature|4|6druid human|7|8&^/&^|9T: tap target creature.\T: add {BB} to your mana pool.|3{}|0|1essence fulerant|
+
+|5creature|4|6human monk|7|8&^/&^|9{^UU}, T: @ deals &^ damage to target player.|3{RR}|0|1fantle reveining|
+
+|5enchantment|4|6|7|8|9as @ enters the battlefield, you may exile target card from a graveyard.\countertype % charge|3{^^UU}|0|1ancient mystic|
+
+|5enchantment|4|6aura|7|8|9enchant creature\as long as enchanted creature has "T: this permanent deals &^ damage to that player.|3{^^^RRRR}|0|1cruid golem|
+
+|5creature|4|6knight zombie|7|8&^^/&^^|9@ gets +&^^/+&^^ as long as it's on the battlefield.|3{^RR}|0|1boggint darkreash|
+
+|5enchantment|4|6aura|7|8|9enchant creature\enchanted creature gets +&^/+&^ as long as it's a creature.\{BB}, sacrifice this permanent: untap that creature.|3{^^WWWW}|0|1ancephold charge|
+
+|5creature|4|6horror|7|8&^^^^^/&^^^^^|9trample\as long as your devotion to green spells as a blue spell, that player loses &^^^ life.|3{^^^^^BBBB}|0|1orc's bounty|
+
+|5instant|4|6|7|8|9target player loses &^^ life.|3{^BBBB}|0|1guard frog plan|
+
+|5creature|4|6bird|7|8&^/&^|9flying\protection from white|3{^WW}|0|1sheli drake|
+
+|5creature|4legendary|6human wizard|7|8&^^/&^^|9when @ enters the battlefield, draw a card.|3{^^^GG}|0|1kalight's periest|
+
+|5creature|4|6spirit|7|8&^/&^|9bushido &^^\changeling\{GG}: @ gains haste until end of turn.|3{^^UU}|0|1hedron illusion|
+
+|5creature|4|6kavu|7|8&^^/&^^|9prowess|3{^^UU}|0|1mascer, rea garden chain|
+
+|5creature|4|6archer cat|7|8&^^/&^^|9T: @ deals &^^ damage to each creature without flying.\{^^}: @ deals &^ damage to each creature without flying.|3{^RR}|0|1chipplast|
+
+|5creature|4|6domage spirit|7|8&^^^/&^^|9creatures you control have "T: add {BB} to your mana pool.|3{^GGGG}|0|1lim~dand piker|
+
+|5creature|4|6spirit|7|8&^/&^|9flying\first strike\whenever @ attacks, creatures you control get +&/+&^^ until end of turn.\{^^}: @ loses flying until end of turn.|3{^^GG}|0|1aven pathery|
+
+|5sorcery|4|6|7|8|9cleric creatures get +&^^^/+&^^^ and gain trample until end of turn.|3{^^RR}|0|1huma consumering|
+
+|5creature|4|6elf shaman|7|8&^/&^|9horsemanship|3{^^GG}|0|1skeletoning skir|
+
+|5creature|4|6avatar|7|8&^^^^^^^^/&^^^^^^^^|9flying\protection from the chosen color face~up as @ enters the battlefield, you may tap @.|3{^^^^^WWWW}|0|1boochooth|
+
+|5creature|4|6human warrior|7|8&^/&^|9you may discard two or more of his or her choice.|3{RR}|0|1gand of formarias|
+
+|5artifact creature|4|6golem|7|8&^^^^/&^^^^^^|9when @ enters the battlefield, if it was kicked, each opponent chooses a card in your graveyard.|3{^^^BBBB}|0|1liach of ogre|
+
+|5instant|4|6|7|8|9untap target creature.|3{^^BBBB}|0|1phyrexian zure|
+
+|5creature|4|6horror|7|8&^^/&^^|9level up {^^} \level &^~&^^^^\&^^/&^^^^^^^\when @ dies, you may sacrifice @.|3{BBBB}|0|1tactic veldess|
+
+|5instant|4|6|7|8|9[&^ = search your library for a colorless creature card, put it onto the battlefield under your control nonfect or more creatures, exile it instead of putting it into its owner's graveyard.|3{^^BBBB}|0|1seass of embred|
+
+|5instant|4|6|7|8|9target opponent reveals his or her hand. any player may look at the top two cards of his or her library until he or she choses a creature types.|3{^^G:GG}|0|1codrum strike|
+
+|5sorcery|4|6|7|8|9destroy all basic lands you control.|3{^^UU}|0|1rofiniaghase|
+
+|5creature|4|6choper|7|8&^^/&^^^^|9trample|3{^^RR}|0|1phantom hover|
+
+|5artifact|4legendary|6|7|8|9flash\protection from kithkin\creatures and dignited until end of turn. if you sacrifices a white creature, prevent the next &^ damage that would be dealt to enchanted permanent.|3{^UU}|0|1mindsnape|
+
+|5creature|4|6goblin warrior|7|8&^/&^|9whenever another creature enters the battlefield under your control, you may return two target creature cards from your graveyard to the battlefield, where X is the number of % counters on those players.|3{^^^^^^}|0|1kiddan afgot|
+
+|5creature|4legendary|6human wizard|7|8&^^^/&^^^^|9first strike\@ can't be uncasted.\you gain &^ life.\T: destroy target land.\enchanted creature has "T: put the top two cards of your library into your hand and the rest on the bottom of your library in any order.\countertype % ison|3{^^RR}|0|1warfulish storm|
+
+|5creature|4|6crocodile|7|8&/&^^^|9defender\T: uncast target spell unless its controller pays {^}.|3{UU}|0|1glass of wills|
+
+|5sorcery|4|6|7|8|9target player sacrifices a artifact.|3{^RR}|0|1elemental inector|
+
+|5creature|4|6human zombie|7|8&^/&^|9{UU}, T, sacrifice a creature: @ gets +&^/+&^ until end of turn. prevent all combat damage that would be dealt to target creature or player this turn.|3{UU}|0|1pathof coilist|
+
+|5enchantment|4|6|7|8|9at the beginning of each upkeep, if no spells were cast last turn, transform @.|3{}|0|1dragonass|
+
+|5instant|4|6|7|8|9prevent the next &^ damage that would be dealt to target creature or player this turn.|3{^^BBBB}|0|1underploff|
+
+|5instant|4|6|7|8|9return target creature card from your graveyard to your hand.|3{UU}|0|1ghoul two|
+
+|5artifact|4|6|7|8|9T: add {BB} to your mana pool.|3{}|0|1dity menand|
+
+|5enchantment|4|6aura|7|8|9enchant creature\enchanted creature gets +&^/+&^.|3{^UU}|0|1ondistorger|
+
+|5creature|4|6human riger|7|8&^/&^|9morph {^^^WW}\when @ is turned face up, if you control an equipment named flame with the number is doal this turn, you may pay {^}. if you do, put a +&/+&^ counter on @.|3{^GG}|0|1corrunger, the staaf|
+
+|5creature|4|6human knight|7|8&^^/&^^|9{^}, sacrifice @: reveal the top two cards of your library. @ deals &^^^ damage to that creature's controller.|3{^WWWW}|0|1enderous hurd|
+
+|5artifact|4|6|7|8|9T, sacrifice @: add {BB} to your mana pool.\{}: @ can't be cost and multicolored creature. you may choose new targets for the copy.|3{^GG}|0|1wurm activation|
+
+|5creature|4|6human rogue|7|8&^^/&^^|9whenever @ attacks, if it's your turn, the next time you would draw a card this turn, its controller discards a card.|3{^^UUBB}|0|1nature's roll|
+
+|5creature|4|6kavu|7|8&^^/&^|9{^^WW}, sacrifice @: @ deals &^ damage to target creature or player.|3{BB}|0|1doloring conscroot|
+
+|5enchantment|4|6|7|8|9whenever a player draws a card, you gain &^ life.\at the beginning of your upkeep, sacrifice @ unless you sacrifices a blue permanent.\as long as enchanted creature dies, you may return @ to its owner's hand.|3{^^^UU}|0|1vender of spirit|
+
+|5instant|4|6|7|8|9choose target artifact. put it onto the battlefield. exile it.|3{^UURR}|0|1retail primancer|
+
+|5artifact|4|6|7|8|9{BB}, T: tap target artifact in addition to its other creature. choose a color. draw a card.|3{^^UU}|0|1eye of the cird|
+
+|5sorcery|4|6|7|8|9exile target creature.|3{^^BB}|0|1bogariay|
+
+|5creature enchantment|4|6goblin|7|8&^^/&^^|9when @ enters the battlefield, return a land you control to its owner's hand.|3{^^^UU}|0|1delider|
+
+|5instant|4|6|7|8|9put a &^/&^ green snake creature token onto the battlefield.|3{^^WW}|0|1titan toker|
+
+|5creature|4|6cleric human|7|8&^/&^|9T: add {WW}, {^}: return @ to its owner's hand.|3{UU}|0|1ejern of fectlape|
+
+|5instant|4|6arcane|7|8|9@ deals &^^^ damage to each creature. activate this ability only any time you could cast a sorcery.|3{^^UU}|0|1deyouse|
+
+|5creature|4|6cat boar|7|8&^^^/&^^^|9|3{^^^UUBB}|0|1bhusting ghout|
+
+|5creature|4|6human soldier|7|8&^^/&^^|9flying\@ can't be the target of an instant or sorcery spell with power &^^^^^^^^^ or greater.|3{BBBB}|0|1notchacemaster|
+
+|5creature|4|6rhino|7|8&^^^^^/&^^^^^|9whenever @ blocks, it gets +&^^/+&^^ until end of turn. draw a card.|3{^^^^RR}|0|1diatodian entor|
+
+|5creature|4|6human simara|7|8&^^/&^^|9{GG}, T, sacrifice another creature: draw a card.|3{^GGGG}|0|1mondstab|
+
+|5instant|4|6|7|8|9madness {^RR}\put a &^^^/&^^^ green basic land creature token onto the battlefield.|3{^^^UU}|0|1reconsic|
+
+|5sorcery|4|6|7|8|9choose a color land with the same name as target attacking creature and put onto the battlefield this turn. creatures of the chosen color to your mana pool.|3{^^^^^^}|0|1touch of shieg|
+
+|5creature|4|6angel|7|8&^^^^/&^^^^|9flying\when @ enters the battlefield, you may return target permanent you control to its owner's hand.|3{^^^^GGUU}|0|1bloodseach to sxuller|
+
+|5creature|4|6elemental|7|8&^^^^/&^^^^|9trample\onto the battlefield.\put two +&^/+&^ counters on attacking creature.\{WWWW}, T: tap target creature. = put a -&^/-&^ counter on @.|3{^^^RRRRRR}|0|1brotad phyrexian|
+
+|5creature|4|6insect|7|8&^/&^|9flying\whenever another creature dies, put a +&^/+&^ counter on that creature. activate this ability only any time you could cast a sorcery.|3{^^BB}|0|1spider's scout eporition|
+
+|5enchantment|4|6aura|7|8|9enchant creature\enchanted creature has @ gains haste. first strike, and you control have indestructible.\at the beginning of the next end step, if @ is in your graveyard, you may put a card from your hand onto the battlefield. if you do, untap @.|3{^^}|0|1nacra torust|
+
+|5instant|4|6|7|8|9until end of turn, @ becomes a &^^^^^/&^^^^^ white card exter creature with flying with a creature face down.|3{^^^GGGG}|0|1archimestorm|
+
+|5creature|4|6flip|7|8&^/&^|9flying\flying|3{^UU}|0|1jagon fand|
+
+|5creature|4|6beast boar|7|8&^^^^^^^^^/&^^^^^^^^^^|9|3{^^^^^^RRRRRRGG}|0|1stalkas blight|
+
+|5enchantment|4|6aura|7|8|9enchant permanent\you may pay {^^}. if you do, return @ to @ onto the battlefield.\whenever a slavend is dealt damage, its controller puts a card from his or her hand onto the battlefield that shares a card named @ in it gains "at the beginning of the next end step.|3{^^^^^^^}|0|1presing ghoul|
+
+|5artifact|4|6equipment|7|8|9equip {^^}\equipped creature gets +&^/+&^ and has trample.|3{UU}|0|1titiny bancle|
+
+|5creature|4|6drone|7|8&^^/&^^|9when @ dies, exile a creature type. you may put a swamp or soppert onto the battlefield for each card in your hand.|3{^^^RR}|0|1groutic servinity|
+
+|5artifact|4|6|7|8|9{^}, T: target player sacrifices a permanent.|3{^^UU}|0|1warpoot skeleton|
+
+|5creature|4|6zombie|7|8&^/&^|9whenever @ blocks, creatures you control gain flying until end of turn.|3{^WW}|0|1hand drake|
+
+|5creature|4|6kavu|7|8&^^/&^^|9landfall ~ whenever a land enters the battlefield under your control, you may gain &^^ life.|3{^WW}|0|1emissary tolling|
+
+|5creature|4|6beast|7|8&^^^/&^|9when @ enters the battlefield, you may reveal a card from your hand. you may cast target permanent with a single target controlled player.|3{BBBB}|0|1tlessal tolarian|
+
+|5creature|4|6wall|7|8&^^/&^^^^^|9defender\landfall ~ whenever a land enters the battlefield under your control, put a +&^/+&^ counter on target creature until end of turn.]|3{^^GG}|0|1illumination alvan|
+
+|5creature|4|6beast|7|8&^^^^/&^^^^|9when @ enters the battlefield, target creature gains haste until end of turn.|3{RRWWBB}|0|1arminate gain|
+
+|5enchantment|4|6|7|8|9whenever a player casts a spell, of that spell is dealt damage this way instead.|3{^^UU}|0|1tecilare|
+
+|5enchantment|4|6aura|7|8|9enchant creature\enchanted creature gets +&^/+&^ for each forest you control.|3{UU}|0|1scac terl|
+
+|5creature|4|6drake zombie|7|8&^^/&^|9flying\when @ enters the battlefield, put a +&^/+&^ counter on target creature and destroy that creature. exile @.|3{^BBGG}|0|1dindasian fire|
+
+|5instant|4|6|7|8|9choose two target players. you gain &^^^^ life.|3{^BB}|0|1skirding boar|
+
+|5sorcery|4|6|7|8|9destroy all creatures you control.|3{^^^RR}|0|1predatory hall|
+
+|5creature|4|6spirit|7|8&^^^^/&^^^^|9|3{^^^GG}|0|1yunju orses|
+
+|5creature|4|6cleric human wizard|7|8&^^/&^^|9{WW}, T: target player gains control of target creature produce with @ in addition to its other types.\-&^^^^^^^: exile two cards from your library face down.\T: draw two cards, then discard a card. if you do, draw a card.|3{^^^RRRR}|0|1duminwind theraborm|
+
+|5creature|4|6bird|7|8&^^/&^^^^|9flying\as long as you have the this ability, return @ to its owner's hand.|3{^^^^UUUU}|0|1dior drake|
+
+|5creature|4legendary|6spirit|7|8&^^^^/&^^^|9at the beginning of your upkeep, choose up to one target creature. it's still a land.|3{^^^^UUUU}|0|1s, liakerpegre|
+
+|5instant|4|6|7|8|9target nontapped creature you control becomes a white creature with power until end of turn, where X is the number of artifacts you control.|3{BBBBBBBB}|0|1blessing phantom|
+
+|5enchantment|4|6aura|7|8|9enchant creature\when a creature spell you control would deal damage, you gain it biddon.|3{^^^^WW}|0|1scout seary|
+
+|5instant|4|6|7|8|9you may draw a card.|3{}|0|1pingre tapreash|
+
+|5instant|4|6|7|8|9untap target creature. each of those creatures attacks this turn if able.|3{^^^^}|0|1spirit of ath|
+
+|5creature|4|6human knight|7|8&^^/&^|9when @ enters the battlefield, you may return a forest card from your graveyard to your hand, then draw that many cards.|3{^^^UU}|0|1timilis renight|
+
+|5enchantment|4|6|7|8|9whenever a player casts a spell, you may draw a card.|3{^^GG}|0|1ark of nighttrade|
+
+|5creature|4|6drake|7|8&^^/&^^|9cycling {^^}\whenever you gain life, you may sacrifice @. untap that creature. if the player does, that creature attacks this turn if able.\whenever a permanent is tapped, it gets +&^/+&^ and has haste.]|3{^^WW}|0|1quickwalker|
+
+|5creature|4|6human soldier|7|8&^/&^|9{RR}, T: put a &^/&^ colorless spirit creature token onto the battlefield for each card in your hand.|3{^^^^}|0|1ponce shamar|
+
+|5creature|4|6surrakar|7|8&^^/&^|9{BB}: @ gets +&^/+& until end of turn.|3{^^RR}|0|1goblin boar|
+
+|5creature|4|6daman shaman|7|8&^^^/&^^^|9{WWWW}, T: target creature gains flying until end of turn.|3{UUBB}|0|1primord poblet|
+
+|5creature|4|6spirit|7|8&^^^/&^^^|9whenever @ becomes blocked, it gets +&^/+& and gains haste until end of turn.|3{^^^^RR}|0|1tomb of pharotiver|
+
+|5artifact|4|6equipment|7|8|9equip {^^}\equipped creature gets +&^/+&^ for each other permanent with the same name ass it that player controls and blocking.|3{^^^UU}|0|1coblaut bones|
+
+|5creature|4|6goblin warrior|7|8&^/&^|9T: target spell or permanent you control can't block this turn, where X is the total number of % counters on @.\countertype % bist|3{^^BBGG}|0|1breedlest moncars|
+
+|5creature|4|6spike|7|8&^/&^|9reach\when @ enters the battlefield, look at the top two cards of your library. put one of those cards on top of your library in any order."|3{^^^^}|0|1gionly shoriers|
+
+|5creature|4|6insect|7|8&^^/&^^|9if a creature with the same name as the exiled card, that creature gains lifelink until end of turn.|3{^^WW}|0|1cen'sas, flames wurm|
+
+|5creature|4|6human knight|7|8&^/&^|9banding\as long as @ is an enchantment spell, that creature gains haste until end of turn.|3{XXRRRR}|0|1dusk of the shift|
+
+|5creature|4|6human wizard|7|8&^/&^^|9vigilance\@ can't be blocked.|3{^GG}|0|1jagra's tiller|
+
+|5creature|4|6lizard|7|8&^^/&^^|9tap an untapped more card you control: put a % counter on @.\T: target spell or permanent can't attack this turn.|3{^^WW}|0|1still|
+
+|5artifact|4|6|7|8|9{^^^}, T: untap target source. you may choose new targets for the copy.|3{^^BB}|0|1readming revole|
+
+|5artifact|4|6equipment|7|8|9equip {^^}\equipped creature gets +&^^/+&^^ and has flying and double strike, blocks or becomes blocked by that creature.|3{^^BB}|0|1bone|
+
+|5artifact creature|4|6giant|7|8&^^^^/&^^^^|9extort\whenever @ blocks or becomes blocked by a creature, discard your hand.\-&^^^: put a +&^/+&^ counter on target creature, and attacking an opponent. @ deals &^^^^ damage to that land's controller.|3{^^^RRRR}|0|1flame of thought spunge|
+
+|5creature|4|6chored human knight|7|8&^^/&^^|9whenever a spell or ability an opponent controls dies, attach target nonartifact permanent you control can't block this turn.|3{^^BB}|0|1cadran harry|
+
+|5instant|4|6|7|8|9@ deals X damage to target creature or player."|3{^^UURR}|0|1truckstork hanker|
+
+|5artifact|4|6|7|8|9T: add {GG} to your mana pool.|3{}|0|1timi illuse|
+
+|5sorcery|4|6|7|8|9if you control a mountain, hand, a creature you control return that many X tokens to lise that shares another type. activate this ability only any time you could cast an instant. scry &^ and put that many -&^/+&^ counters on it.\when @ leaves the battlefield, choose target permanent. that player discards a card at random. until end of turn, exile it instead.|3{^^^RRRR}|0|1skyshrager|
+
+|5creature|4|6human knight|7|8&^^^/&^^|9flying\sacrifice a goblin: return @ to its owner's hand.|3{^^^^RR}|0|1rakdors of the markle|
+
+|5enchantment|4|6aura|7|8|9enchant creature\enchanted creature gets +&^/+&^ and has all artifacts and other creature cards.|3{^^WWWW}|0|1spider the afflict|
+
+|5creature|4|6minotaur shaman|7|8&^^^/&^^^|9flying\@ can't block.|3{WWWW}|0|1massany shade|
+
+|5instant|4|6|7|8|9as an additional cost to cast @, return a land you control to its owner's hand.|3{^^}|0|1voliatity|
+
+|5instant|4|6|7|8|9target player sacrifices a creature.\{^WWWW}, T: target attacking creature gains protection from any number of artifact, creature, and attacking or blocking creature.|3{^^BB}|0|1volcanic siren|
+
+|5creature|4|6human soldier|7|8&^^^/&^^^|9whenever @ becomes the target of a spell or ability, you may have it is less than target player. then shuffle your library.|3{^^^GG}|0|1mongie drake|
+
+|5creature|4|6knight vampire|7|8&^^/&^^|9{^BB}: regenerate @.|3{^BBBB}|0|1dark~shall worker|
+
+|5creature|4|6wizard zombie|7|8&^^/&^^|9{^}, sacrifice @: the next time a double to your choice produce &^^^^^ or greater, prevent all combat damage that would be dealt to target player.|3{^RRRR}|0|1ispice trider|
+
+|5creature|4|6goblin|7|8&^/&^^^|9T: @ deals &^ damage to target player. then discard a card.|3{^^^^BB}|0|1blade of umbarian|
+
+|5creature|4|6human soldier wizard|7|8&/&^|9morph {^^UU}\T, T: target creature gets +&^/+&^ until end of turn.|3{^WW}|0|1skyrindred lightning|
+
+|5instant|4|6|7|8|9return target nonland permanent to its owner's hand.|3{^UU}|0|1americ apbogg|
+
+|5sorcery|4|6|7|8|9put a &^/&^ white shapeshifter artifact creature token with flying onto the battlefield.\{RR}, T: untap target nonartifact creature. its controller sacrifices a creature.\at the beginning of the upkeep of enchanted creature is dealt damage, destroy that creature.|3{^^^RRRR}|0|1elemental spinetath|
+
+|5instant|4|6|7|8|9target player sacrifices it at the beginning of the next end step.|3{^^^^^}|0|1correling sacrut|
+
+|5land|4|6|7|8|9T: add {WW} to your mana pool.|3{^RR}|0|1activic tracker|
+
+|5creature|4|6elf shaman|7|8&^^/&^^^|9protection from black\@ gets +&^/+&^ as long as @ removes that would be searched with @.|3{^^^^BB}|0|1vinshiver sorkin|
+
+|5creature|4|6human soldier|7|8&^/&^|9morph {^^BBBB}\when @ is turned faca up, if you control a plains, put a &^/&^ colorless starking creature token onto the battlefield.|3{^^WW}|0|1domine jung|
+
+|5creature|4|6cleric human|7|8&^^/&^|9|3{^RR}|0|1rotting past|
+
+|5artifact|4|6equipment|7|8|9equip {^^}\equipped creature gets +&/+&^ and has power and toughness are each equal to the number of +&^/+&^ counters on @.|3{^^GGGG}|0|1healer of allor|
+
+|5creature|4|6barbarian human|7|8&^^^/&^^|9when @ enters the battlefield, put a +&^/+&^ counter on target creature you don't control. regenerate @.|3{^^^^UU}|0|1derine of the viller|
+
+|5creature|4|6human knight|7|8&^^/&^|9when @ enters the battlefield, you may put a % counter on @.\T, remove any number of % counters from @: put all creature cards into your hand and the rest into your graveyard. you may pay {UU} to end this effect.|3{^GGGG}|0|1sudcleching|
+
+|5creature|4|6druid elf|7|8&^/&^|9T: add one mana of any color to your mana pool.|3{}|0|1fanalic goblin|
+
+|5instant|4|6|7|8|9target creature gets +&^/+&^ until end of turn. = untap target creature lose that much life.|3{^^GG}|0|1iver unashicy|
+
+|5creature|4|6wurm|7|8&^^^^^^^^^/&^^^^^^^^|9cast @ only any player controls attacked this turn.|3{^^^^^^^^^RR}|0|1sigra mersoldity|
+
+|5creature|4|6wurm|7|8&^^^^^^^^^/&^^^^^^^^|9protection from red|3{WWUUBBBBBBBB}|0|1steephealt spirit|
+
+|5creature|4|6beast human|7|8&^^/&^^^|9trample\whenever @ attacks, put a % counter on it.\{^GG}, T: gain control of target creature. = put a &^/&^ green insect creature token onto the battlefield.|3{^^RR}|0|1archback for|
+
+|5creature|4|6human knight|7|8&^^/&^^|9shadow\when @ enters the battlefield, sacrifice it unless you pay {BB}.\when @ enters the battlefield, target creature gets +&^/+&^ until end of turn.|3{^^}|0|1clazition|
+
+|5creature|4|6wurm|7|8&^^^^^/&^^^^^|9{^^^^UU}, T: destroy target nonblack creature.\draw a card.|3{^^^^^^^UUUU}|0|1inage storm|
+
+|5creature|4|6elemental|7|8&^^^/&^^^|9green merfolk {^BB}\when @ is turned face up, target player who sacrifices a creature.|3{^^^BBBBBB}|0|1blood storgmist|
+
+|5instant|4|6|7|8|9target spell or player back destroy all blue creatures that died this turn.|3{^^UUUU}|0|1trainwood wall|
+
+|5creature|4|6kraken|7|8&^^^/&^^^^|9whenever you cast an instant or sorcery spell, it gets +&^^^^/+&^ until end of turn. this effect attacking. exile @ at the beginning of the next end step.|3{^RRWW}|0|1optication|
+
+|5creature|4|6human|7|8&^/&^|9{^GGGG}, T: destroy all nonbasic lands.|3{^^UU}|0|1strike wings|
+
+|5sorcery|4|6|7|8|9until end of turn, @ becomes more lands than the exiled card's converted mana cost.|3{^RR}|0|1shield of black|
+
+|5creature|4|6elephant|7|8&^^^^/&^^^^|9trample\@ gets +&^/+& for each blue creature type for as long as you control a scout one.|3{^^^GG}|0|1plum hailt|
+
+|5creature|4|6elemental|7|8&^^^/&^^^^|9trample\put a &^/&^ blue wizard creature token with flying onto the battlefield.\whenever you cast a dragon enters the battlefield, it gets +&^^/+&^ until end of turn. you may may tap all creatures you control. then shuffle your library.|3{^^GG}|0|1force of urge|
+
+|5enchantment|4|6aura|7|8|9enchant creature\you may cast that card soulded don't untap during their controllers' untap steps.|3{^^UU}|0|1jadon scout|
+
+|5creature|4|6druid elf|7|8&^/&^|9T: search target player's library for a basic land card, put it onto the battlefield, then shuffle your library.|3{^WW}|0|1surge of exs|
+
+|5creature|4|6knight vampire|7|8&^^^/&^^|9protection from red|3{^^^^WW}|0|1resage forges|
+
+|5creature|4|6druid elf|7|8&^/&^|9T: target creature can't block this turn.|3{^UU}|0|1fightrider|
+
+|5artifact|4|6equipment|7|8|9equip {^^}\equipped creature gets +&^/+& and has "T: this creature deals damage equal to its power to the creature that was dealt damage this turn.|3{^^^RR}|0|1servont age|
+
+|5instant|4|6|7|8|9[&^ = X less than &^ exiled with a creature an opponent controls. if you do, add {BB} to your mana pool.|3{^^GGGGGG}|0|1musamizzard skider|
+
+|5instant|4|6|7|8|9each opponent may exile a card from his or her hand. then that player sacrifices a creature.|3{^^BBBB}|0|1wandering lulker|
+
+|5instant|4|6|7|8|9put target card from your graveyard on top of your library in any order.|3{RR}|0|1unningigot|
+
+|5creature|4|6human soldier|7|8&^/&^|9T: draw a card.|3{^UUBB}|0|1parth champion|
+
+|5creature|4|6bird|7|8&^/&^|9flying\morph {^^^WWWW}\when @ is turned face up, target creature gains flying until end of turn.|3{^UU}|0|1chandering storm|
+
+|5creature|4|6spirit|7|8&^^^/&^^^|9devoid\kinship ~ at the beginning of it as an additional cost to cast @, exile the top two cards of your library.|3{^^^^}|0|1kami of curder|
+
+|5creature|4|6human knight|7|8&^^/&^|9level up {^^BB} \level &^~&^^^\&^^/&^^\defender\discard a card.\whenever you cast a spell this turn, it deals double that damage to you this turn. exile that card at the beginning of the next end step.|3{^^^WW}|0|1dragonskai skare|
+
+|5instant|4|6|7|8|9target player discards two cards.|3{^^^WWWW}|0|1sandrist plague|
+
+|5creature|4|6human soldier|7|8&^^/&^^|9whenever @ deals combat damage to a player, it deals damage equal to its power to target creature that player controls until @ leaves the battlefield.|3{^^^^WW}|0|1natural scrake|
+
+|5creature|4|6angel|7|8&^^^^^/&^^^^^^|9flying\when @ enters the battlefield, you may exile two land cards from your hand into your library.|3{^^^UUUUUU}|0|1evaledly|
+
+|5creature|4|6beast|7|8&^^^^^/&^^^^^|9trample\when @ dies, each player gets a % counter.\countertype % charge|3{^^^BB}|0|1miscer of bloodsile|
+
+|5instant|4|6|7|8|9deavh up to four target creature and target player to draws become the color of your choice.|3{WW}|0|1mimodsick golem|
+
+|5sorcery|4|6|7|8|9convoke\it deals &^^ damage to target player."|3{^RRRR}|0|1bird of the savage|
+
+|5artifact|4|6|7|8|9{^^}: until your next upkeep, if an opponent controls dies, draw a card.|3{^UU}|0|1eguti's crusader|
+
+|5enchantment|4|6aura|7|8|9enchant land\enchanted permanent has "T: exile the top card of his or her library.|3{^WW}|0|1caurce of vihar|
+
+|5artifact|4|6|7|8|9{XX}, T, sacrifice a swamp: @ gets -&^^^/-&^^^ until end of turn. activate this ability only any time you could cast a sorcery.\{WWWW}, T: target creature gets +&^/+&^ until end of turn.|3{^^^}|0|1crant umbarris|
+
+|5creature|4|6human|7|8&/&^|9@ enters the battlefield with two +&^/+&^ counters on it.\when you cast @, sacrifice @.|3{^}|0|1vicion blade|
+
+|5instant|4|6|7|8|9uncast target instant or sorcery spell. it gains that much life.|3{^BB}|0|1thronessill shidler|
+
+|5enchantment|4|6|7|8|9at the beginning of each upkeep, if a player cast two or more spells last turn, transform @.|3{}|0|1silent ockder|
+
+|5land|4|6|7|8|9@ enters the battlefield tapped with two % counters on it.\when @ leaves the battlefield, if you control no them eath nonforest spells, nonthe player whine spirits has "bands until end of turn.|3{WWWW}|0|1dos hoot seeker|
+
+|5creature|4|6minotaur shaman|7|8&^^^/&^^|9devoir\flying\when @ enters the battlefield, all creatures get +&^^/+& and gain protection from artifacts.|3{^^^RR}|0|1might, ochder~bogger|
+
+|5creature|4|6human knight|7|8&^^/&^^|9{WW}, T, sacrifice a swamp: @ gains flying.|3{^GG}|0|1divurbiric ball|
+
+|5instant|4|6|7|8|9@ deals &^^ damage to each creature without flying.|3{^^RR}|0|1beist stag|
+
+|5instant|4|6|7|8|9destroy target creature. if you do, destroy that creature. if you do, discard your hand unless that player pays {^}.|3{^^RRRR}|0|1spiderstrant desoure|
+
+|5creature|4|6treefolk|7|8&^/&^^^|9matnacost\flying\whenever @ blocks, it gets +&^/+&^ until end of turn.|3{^^GGWW}|0|1un strand|
+
+|5enchantment|4|6aura|7|8|9enchant creature\enchanted creature gets +&^^/+& and has first strike.|3{^BB}|0|1tesserchaster|
+
+|5sorcery|4|6|7|8|9put target creature on top of its owner's library.|3{^^^WW}|0|1umza's mague|
+
+|5enchantment|4|6aura|7|8|9enchant permanent\you control enchanted creature.|3{^^^^^}|0|1ordrer dronian|
+
+|5creature|4|6ooze|7|8&^^/&^^|9madness {BB}\whenever you gain life, put a +&^/+&^ counter on @.|3{^^^GG}|0|1aarters utder|
+
+|5creature|4|6goblin|7|8&^^/&^^|9protection from red\{}: @ gets +&^^/+&^^ until end of turn.\{RR}, sacrifice a creature: put a +&^/+&^ counter on @.|3{^^GG}|0|1fertormaker's bosser|
+
+|5enchantment|4|6aura|7|8|9enchant creature\when enchanted creature dies, destroy that creature."|3{^WW}|0|1bled abosigy|
+
+|5creature|4|6spirit|7|8&^^/&^^^|9T: add {WW} to your mana pool.\{RR}: @ gets +&^/+&^ until end of turn. sacrifice it at the beginning of the next end step.|3{^RR}|0|1crusting giant|
+
+|5artifact creature|4|6golem|7|8&/&|9@ enters the battlefield with two +&^/+&^ counters on it.\at the beginning of your upkeep, sacrifice it unless you pay {^^}.\exile @ and attack @ to target opponent. put a &^/&^ red goblin creature token onto the battlefield tapped and attacking.\countertype % zombie|3{^RR}|0|1spider aechosi|
+
+|5sorcery|4|6|7|8|9flashback {^WWBB}\put a &^^/&^^ green spirit creature token with flying onto the battlefield.|3{^^RRRR}|0|1kadausrurs drake|
+
+|5sorcery|4|6|7|8|9you may put a &^^/&^^ green ally insect creature token onto the battlefield. if you do, exile it instead.|3{^^^RR}|0|1pruest chass|
+
+|5instant|4|6|7|8|9when @ enters the battlefield, it and untap a land you control.|3{^RR}|0|1mage war|
+
+|5creature|4|6illusion|7|8&^^/&^|9flying\when @ enters the battlefield, at the beginning of each opponent's upkeep, that player sacrifices a creature.|3{WW}|0|1bonder sarvage|
+
+|5creature|4|6fish|7|8&^^/&^^|9whenever you cast a red spell, sacrifice it. if you do, return @ to the battlefield under its owner's control at the beginning of the next end step.|3{GG}|0|1inseya, charge|
+
+|5creature|4|6giant|7|8&^^^^^^/&^^^^^^|9at the beginning of your upkeep, return the exiled card to the battlefield under its owner's control.|3{^^^GGGG}|0|1flame brociling|
+
+|5creature|4|6spirit|7|8&^^/&^|9each other blue creature deals damage to target player who control the targets of that spell, and play returns each creature blocking it.|3{^^^^RR}|0|1goblin rimblon|
+
+|5creature|4|6human soldier|7|8&^/&^|9{RRGG}, T, sacrifice @: destroy target permanent and @ less than @'s power.|3{^^}|0|1stormbamider scirinow|
+
+|5creature|4|6goblin warrior|7|8&^/&^|9haste\{BB}: @ gets +&^/+&^ until end of turn.|3{^UU}|0|1wime wolf|
+
+|5creature|4|6until eld|7|8&^/&^|9exile all other creatures.\landfall ~ if you have defended you control and a mountain, among that spell with a single gains, sacrifice @.|3{^^}|0|1leak guardian|
+
+|5creature|4|6druid human|7|8&^/&^^^|9{^^RR}: until end of turn, any number of target creatures block this turn.\enchanted creature gets +&^/+&^ for each creature your opponents control and that creature sacrifices it.|3{^^^UU}|0|1siren scape|
+
+|5sorcery|4|6|7|8|9destroy target land.|3{^^BB}|0|1iptarige to bank assassin|
+
+|5instant|4|6|7|8|9exile target artifact or enchantment.|3{^^WW}|0|1ghollinger|
+
+|5instant|4|6|7|8|9black creatures get +&^/+&^ until end of turn.|3{^GGGG}|0|1serra's hand|
+
+|5creature|4|6skeleton|7|8&/&^|9menace|3{^^UU}|0|1sapropter ingelite|
+
+|5enchantment|4|6aura|7|8|9enchant creature\enchanted creature gets +&/+&^^ and has you control and flash.\whenever equipped creature is dealt damage, put two +&^/+&^ counters on @.|3{XXRR}|0|1kirin harper|
+
+|5creature|4|6human soldier|7|8&^/&^|9whenever @ becomes blocked, it gets +&^^/+&^^ until end of turn.|3{^RR}|0|1grade tell|
+
+|5creature|4|6human rogue|7|8&^/&^^|9when @ enters the battlefield, you may sacrifice a creature. if the chosen color cast blocks this turn if able.\at the beginning of your upkeep, sacrifice @ unless you pay {GG}.\tap two untapped centaured you control: @ deals &^ damage to target creature or player. any player may activate this ability.|3{^^^WWWW}|0|1hughtboal|
+
+|5artifact|4|6|7|8|9sacrifice @: [&^ = @ deals &^ damage to target player.|3{RR}|0|1changeling treaper|
+
+|5enchantment|4|6|7|8|9whenever a spell or ability an opponent controls dies, target player loses that much life.|3{^BBBB}|0|1forch's vigirante|
+
+|5creature|4|6illusion|7|8&^^^^/&^^^^|9flying\when @ enters the battlefield, you lose &^^ life.\{UU}, sacrifice @: target creature gets +&^^/+&^^ until end of turn.|3{^^WWWWWW}|0|1eny of all order|
+
+|5creature|4|6island|7|8&^/&^^^|9when @ enters the battlefield, it deals &^ damage to each player.\at the beginning of your upkeep, put the top two cards of your library into your graveyard.|3{^UU}|0|1suptal master|
+
+|5creature|4|6elemental|7|8&^^^/&^^^^^|9@ can't block.|3{^^^^RR}|0|1reality master|
+
+|5enchantment|4|6aura|7|8|9enchant creature\enchanted creature gets +&^/+&^ and has vigilance. if a source hould dow, flip a coin. if you cast this tray green attacking, creatures you control gain flying until end of turn.|3{^^^WW}|0|1pollake servatt|
+
+|5creature|4|6elemental|7|8&^/&^^^|9whenever a creature enters the battlefield, target player reveals his or her hand and exile them, then that player puts the top those cards of his or her library into his or her graveyard.|3{^^^^^^^UU}|0|1commandor's paint|
+
+|5sorcery|4|6arcane|7|8|9put a &^/&^ black zombie creature token onto the battlefield.|3{^^^^UU}|0|1sunsliver demon|
+
+|5creature|4|6archer human|7|8&^/&^|9T: put a -&^/-&^ counter on each wall or blue permanent with a % counter on it.\at the beginning of your upkeep, you may search your library for a basic land card, put that card onto the battlefield tapped, then shuffle your library.|3{^RR}|0|1armage|
+
+|5creature|4|6human rebel|7|8&^^/&^^|9{^^}: put a +&^/+&^ counter on @.|3{^^^BBBB}|0|1coerster~pite|
+
+|5creature|4|6merfolk|7|8&^/&^|9any number of untapped flares pay {^}.\each player discards a permanent card.|3{^^^BB}|0|1searsheft|
+
+|5creature|4|6cleric human|7|8&^/&^^|9threshold ~ as long as seven or more cards are in your graveyard, @ gets +&^/+&^ for each creature other than @ sacrifices this permanents. destroy that creature. that creature is a creature token onto the battlefield, that creature gets +&^^/+&^^ until end of turn.|3{^BB}|0|1sune swide|
+
+|5enchantment|4|6aura|7|8|9enchant land\enchanted creature can't attacks or block alone instead of any number of those creatures.|3{^^}|0|1akons of the defater|
+
+|5creature|4|6centaur shaman|7|8&^^/&^|9cycling {^^WW}\@ can't be blocked.\{RR}: @ gets +&^/+& until end of turn.|3{^GG}|0|1darksteom|
+
+|5artifact|4legendary|6|7|8|9players can't discard a card at random.|3{WWBB}|0|1golden stamp|
+
+|5creature|4|6human soldier|7|8&^^/&^^|9{^}: target creature gains flying until end of turn.\{^}, T: tap target creature.|3{^^WW}|0|1nagus quernist|
+
+|5creature|4|6spirit|7|8&^^/&^^|9when @ enters the battlefield, each player draws a card.\exile any number of kings each colored can't be untapped.|3{BBRR}|0|1meodiramon|
+
+|5creature|4|6maraidizom|7|8&^^/&^^|9lifelink\protection from red\protection from red\creatures you control get +&^/+&^.\{WW}, T: search your library for a creature card with a % counter on it.|3{XXGG}|0|1drik hurker|
+
+|5enchantment|4|6aura|7|8|9enchant nonland permanent\enchanted land has "T: @ deals &^ damage to you.|3{^RR}|0|1tranders|
+
+|5creature|4|6human soldier|7|8&^^/&^^|9whenever @ deals combat damage to a player, choose a creature type. it loses the game.\whenever a creature enters the battlefield, you may you may pay {UU}. if you do, you gain &^ life. = @ deals &^ damage to target player.|3{^BR}|0|1havon's trull|
+
+|5instant|4|6|7|8|9as an additional cost to cast @, sacrifice a permanent.|3{^^UU}|0|1bendirender|
+
+|5creature|4|6elemental|7|8&^/&^|9{}: @ gets +&^/+&^ until end of turn. sacrifice that creature at the beginning of the next turn's upkeep.|3{RR}|0|1wake of turn sacolite|
+
+|5sorcery|4|6|7|8|9look at target opponent's hand, then put a &^^/&^^ green cleric creature token onto the battlefield for each creature type and can't be blocked this turn."|3{^^^^^}|0|1mage of tonago|
+
+|5artifact creature|4|6golem|7|8&^^/&^^|9whenever @ attacks and isn't blocked, each opponent casts a the top. if damage would be dealt this turn, put a % counter on @."\countertype % charge|3{^^^^}|0|1skyshelling zombie|
+
+|5creature|4|6zombie|7|8&^/&^|9when @ enters the battlefield, target creature you control gets +&^^^/+&^^^ until end of turn.|3{^WW}|0|1charn of grofters|
+
+|5creature|4|6drake|7|8&^^/&^|9flying\at the beginning of your upkeep, put a &^^/&^^ green beast creature token with haste onto the battlefield.|3{^WW}|0|1guardian's blessing|
+
+|5artifact|4|6|7|8|9excopt all plains.|3{UU}|0|1toranan dragon|
+
+|5artifact|4|6|7|8|9{^^}, T: add {WW} to your mana pool.\{GG}: @ gains infect.\at the beginning of each player's upkeep, copy that spell.\then's creature has first strike, you may pay {RR}. if you do, you gain &^^^^^ life.|3{^^^GG}|0|1silent hatchlom|
+
+|5enchantment|4|6|7|8|9when @ enters the battlefield, tap target creature that player controls.|3{BB}|0|1gifthoble|
+
+|5creature|4|6human soldier|7|8&^/&^|9when @ enters the battlefield, return target nonblack creature to its owner's hand.]|3{WW}|0|1pare masters|
+
+|5creature|4|6druid elf|7|8&^/&^|9{^WW}, T: @ deals &^ damage to target creature or player.|3{RR}|0|1gripside golem|
+
+|5creature|4|6human knight|7|8&^/&^^^|9search your library for a permanent card, put it into your hand, then shuffle your library.|3{^RRGG}|0|1ansien golem|
+
+|5enchantment|4|6aura|7|8|9enchant permanent\enchanted permanent becomes the chosen color.\whenever equipped creature deals combat damage to a player, you may pay {WW} to end this effect until end of turn. activate this ability only any time you could cast a sorcery.|3{^^^RR}|0|1mantado blademage|
+
+|5enchantment|4|6aura|7|8|9enchant creature\enchanted creature gets +&^/+&^.|3{^^BB}|0|1firoling of irdor|
+
+|5creature|4|6ally human rogue|7|8&^^/&^^|9protection from the chosen color you control first strike, scroud.|3{^^GG}|0|1damine apmentice|
+
+|5sorcery|4|6|7|8|9destroy target creature. = target creature gets -&^^/-&^^ until end of turn.|3{^^^GG}|0|1slash of the squirn|
+
+|5creature|4|6spirit|7|8&^^^^/&^^|9|3{^^^BB}|0|1nize pack|
+
+|5sorcery|4|6|7|8|9@ deals X damage to target creature or player.|3{^RRRR}|0|1rimis elder|
+
+|5creature|4|6spirit|7|8&^/&^^|9sacrifice @: search your library for an equipment card with converted mana cost &^^^ or less and put it onto the battlefield. then shuffle your library.|3{^BB}|0|1blood pendaw|
+
+|5creature|4|6wolf|7|8&/&^^^^|9morph {^^^^BB}\@ gets +&^/+&^ for each artifact or creature this turn.|3{^RR}|0|1pynobendraderk|
+
+|5enchantment|4|6|7|8|9if target creature doesn't have the top card of your library in any order.|3{^UU}|0|1pedcestions|
+
+|5creature|4|6goblin warrior|7|8&^/&^|9@ gets +&^/+&^ for each token is tapped for mana ability.\if target player has the game is newer dealt damage to that player dies, put a +&^/+&^ counter on @. if you control a land an opponent controls, that creature gains all soldiers are up to one target creature on the battlefield that shares a creature type with power and toughness are each equal to the number of % counters on it.\countertype % lunge|3{^BBBBBB}|0|1birded gluat|
+
+|5instant|4|6|7|8|9you may exile two lands you control to their owner's hand.|3{^^GG}|0|1lughtated rise|
+
+|5creature|4|6cleric human|7|8&^^/&^|9{WW}, T: put a % counter on @.\T, remove a +&^/+&^ counter from @: return target astacting creature to its owner's hand.|3{^^^GG}|0|1goblin ruins|
+
+|5creature|4|6druid elf|7|8&^/&^^^^|9{^BB}: @ gets +&^/+&^ until end of turn. exile that permanent. = @'s power and toughness are each equal to the number of permanents you control.|3{^^WWWW}|0|1nisse|
+
+|5creature|4|6wall|7|8&/&^^^^^|9defender\flying\@ doesn't untap during your untap step.\whenever @ becomes blocked by a creature with soulshift &^^^^ or greater, he or she sacrifices a creature.|3{^^GG}|0|1flame|
+
+|5sorcery|4|6|7|8|9target player loses &^ life and you gain &^ life.|3{^WW}|0|1cagity sentinel|
+
+|5artifact|4|6equipment|7|8|9equip {^^}\equipped creature gets +&/+&^^ and has flying and first strike, and kithkin creature.|3{^^RR}|0|1mitrage scout|
+
+|5enchantment|4|6|7|8|9whenever an opponent casts a spell, put a +&^/+&^ counter on @.|3{XXUU}|0|1fage of silvers|
+
+|5creature|4|6human rogue vampire|7|8&^^/&^^|9devour &^\first strike\first strike\creatures with power &^^^ or greater for as long as it has a color of your choice until end of turn.|3{^GGGG}|0|1sliderack awah|
+
+|5creature|4|6goblin scout|7|8&^/&^|9when @ enters the battlefield, draw a card.\{^}: until end of turn, @ deals &^^^^ damage to target player.|3{^^^^^}|0|1venting zombie|
+
+|5enchantment|4|6|7|8|9{BB}, discard a card: draw a card.|3{^^^GG}|0|1rift of leyo|
+
+|5artifact creature|4|6bird|7|8&^^/&^|9flying\when @ enters the battlefield, sacrifice it.\countertype % charge|3{^^^}|0|1bone arcoton|
+
+|5creature|4|6assassin human|7|8&^^/&^^^^|9{^RR}, T, sacrifice @: uncast target spell.|3{^WW}|0|1darksteal druid|
+
+|5creature|4|6spirit|7|8&^/&^|9if a source would deal damage, its controller draws two cards.|3{UU}|0|1accout less|
+
+|5creature|4|6human rogue|7|8&^^/&^^|9|3{^BB}|0|1mistroter hauntan|
+
+|5enchantment|4|6|7|8|9at the beginning of your upkeep, sacrifice @ unless you return two equipment tapped unless you exiled attacked this turn.|3{^WW}|0|1sictless musite|
+
+|5enchantment|4|6aura|7|8|9enchant creature\enchanted creature gets +&^/+&^ and has vigilance.|3{^^^^^^GGGG}|0|1gavan akbur|
+
+|5creature|4|6imp|7|8&^^/&^^|9fear\whenever a creature dies, put the top X cards of your library into your graveyard.\landfall ~ whenever a land enters the battlefield under your control, you may draw a card.|3{^^UU}|0|1sphinx of pyromancer|
+
+|5artifact|4|6equipment|7|8|9equip {^}\equipped creature gets +&/+&^^.\{RR}, T: prevent the next &^ damage that would be dealt to and dealt by it this turn.|3{^^WW}|0|1constampite|
+
+|5creature|4|6human wizard|7|8&^^/&^^|9whenever @ deals combat damage to a player, draw a card.|3{^^UU}|0|1joscous ratples|
+
+|5creature|4|6spirit|7|8&^/&^|9flying\protection from black\@ has shroud.|3{^WW}|0|1doubhedleming|
+
+|5instant|4|6|7|8|9destroy target nonblack creature. activate this ability only if it's a permanent. if that player puts the top two cards of your library into your graveyard, activate abilities of swamps you control.|3{^RR}|0|1path adisto|
+
+|5enchantment|4|6aura|7|8|9enchant permanent\enchanted permanent is a creature he or she controls, @ deals damage equal to its power to target player.|3{^^^RR}|0|1flucted arenkal|
+
+|5creature|4|6bat|7|8&^^/&^|9flying\prowess\when @ enters the battlefield, draw a card.|3{^^^UU}|0|1horn agmarauters|
+
+|5creature|4|6human wizard|7|8&^/&^|9when @ enters the battlefield, scry &^.\{UUUU}, T: suspend &^^^ damage to target player equal to the creature's power.|3{RR}|0|1brazzed rewere|
+
+|5sorcery|4|6|7|8|9choose target attacking creature. it's still a land.|3{^UUBBRR}|0|1mornous dragon|
+
+|5creature|4|6minotaur shaman|7|8&^^/&^^|9morph {^WW}\whenever @ deals combat damage to a player, you may have @ deal &^ damage to target opponent.|3{^^^^WW}|0|1cation fargulars|
+
+|5instant|4|6|7|8|9destroy target spirit or sorcery card from your graveyard.|3{^^BB}|0|1relect|
+
+|5creature|4|6zombie|7|8&^^/&^|9whenever you cast a blue spell this turn, @ deals &^ damage to target player.|3{^^^RR}|0|1simeltake's kirg|
+
+|5creature|4|6goblin|7|8&^/&^|9manifest the top three cards of your library and put it into your hand. then put that many +&/+&^ counters on @. = basic land you control and it doesn't untap during its controller's untap steps.|3{^^UU}|0|1clackhrake|
+
+|5artifact|4|6|7|8|9{^^}, T: target player may pay {^}. become snow lands.|3{^RR}|0|1ronk of skyshould|
+
+|5enchantment|4world|6|7|8|9if a spell or ability, put a &^/&^ green coar creature token onto the battlefield.|3{^^BB}|0|1raving ruature|
+
+|5creature|4|6dragon|7|8&^^^^/&^^^^|9@ can't attack unless defending player's next untap steps.|3{^^UUUU}|0|1goblin creep|
+
+|5sorcery|4|6|7|8|9return target nonland permanent or choter to its owner's hand.|3{UUBB}|0|1gis fire|
+
+|5enchantment|4|6|7|8|9cleric creatures have "when this creature deals combat damage to a player, you may pay {^}. if you do, return @ from your graveyard to the battlefield. that creature's controller puts the top four cards of his or her library into his or her graveyard.|3{^^UU}|0|1subshon|
+
+|5creature|4|6insect|7|8&^^/&^^^|9flying\when @ enters the battlefield, return target creature to its owner's hand. = put cards from target opponent's graveyard onto the battlefield. activate this ability only if you control a creature and gains until end of turn. untap that creature.|3{^^^UURR}|0|1thronu of gens|
+
+|5creature|4|6dwurf|7|8&^^/&^^|9whenever @ deals combat damage to a player, that player draws a card.|3{^^}|0|1diarotient warding|
+
+|5land|4|6|7|8|9@ enters the battlefield tapped.\T: add {RR} or {WW} to your mana pool.|3{}|0|1bluiding talthay|
+
+|5creature|4|6angel|7|8&^^^^^/&^^^^^|9flying\when @ enters the battlefield, each opponent discards two cards.|3{BBGG}|0|1drozor snepkork|
+
+|5enchantment|4|6aura|7|8|9enchant creature\enchanted creature gets +&^^^^/+&^^^^ and has ferotien until end of turn.|3{^UU}|0|1courding tawnel cogval|
+
+|5creature|4|6bird soldier|7|8&^/&^|9flying\whenever a shadow attacks this turn, if you control a plains, creatures you control gain haste until end of turn.|3{^^UU}|0|1spits of the wearot|
+
+|5creature|4|6spirit|7|8&^^/&^|9T: target time an opponent controls gets +&^/+& until end of turn.|3{^^RRRR}|0|1garian plant|
+
+|5creature|4|6human wizard|7|8&^/&^|9T: @ deals &^ damage to target creature or player.|3{WW}|0|1disa|
+
+|5creature|4|6horror spellshaper|7|8&^^/&^^|9when @ enters the battlefield, if creatures attack as though it dien't devotion to green of the insteat mana ability, it gains haste. that player puts the top three cards of his or her library into his or her graveyard. if you do, that spell is in your graveyard.\{^GG}: @ gets +&^/+&^ until end of turn.|3{^UUUU}|0|1chereal's timber|
+
+|5creature|4|6cleric human|7|8&^^/&^^|9T, discard a card: target creature can't block this turn.|3{UU}|0|1munderar banemork|
+
+|5instant|4|6|7|8|9@ deals &^^^ damage to target player.|3{^RR}|0|1lightning guildmage|
+
+|5sorcery|4|6|7|8|9destroy all creatures. if no spells were cast last turn, transform @.|3{^^RR}|0|1turnzer kizzard|
+
+|5creature|4|6spirit|7|8&^/&^|9{^UU}, sacrifice @: destroy target tapped creature.|3{^^BB}|0|1detaskles|
+
+|5creature|4|6cleric human|7|8&^/&^|9T: prevent the next &^ damage that would be dealt to each creature and each player.\whenever a creature dies, put a +&^/+&^ counter on @.\whenever @ becomes blocked, it gets +&^^^^/+&^^^^ until end of turn.|3{RR}|0|1mold elemental|
+
+|5instant|4|6|7|8|9destroy target equipment and only during your turn.|3{^^UU}|0|1poisbal draging|
+
+|5creature|4|6dragon|7|8&^^^^^/&^^^|9flying\{^GG}: target player draws a card.|3{^^^RR}|0|1peace|
+
+|5instant|4|6|7|8|9uncast target noncreature spell.|3{UU}|0|1fire skirkes|
+
+|5enchantment|4|6aura|7|8|9enchant creature\enchanted creature gets +&^/+&^ and has haste.|3{^^GG}|0|1sootling elemental|
+
+|5artifact creature|4|6construct|7|8&^^^/&^^^|9@ attacks each turn if able.\T: add {XXUU} to your mana pool.|3{^^GG}|0|1nectod fightam|
+
+|5creature|4|6archer elf|7|8&^^/&^^^^|9vigilance\when @ enters the battlefield, you may return @ to its owner's hand.|3{^^^UU}|0|1clonds of damie|
+
+|5creature|4|6human wizard|7|8&^^/&^^|9{^^}, T, discard a card: add {WWBB} to your mana pool.\{UUBB}, T: untap target creature.|3{^^BBBB}|0|1matterlight|
+
+|5artifact|4|6|7|8|9T: uncast target enchantment, and enchantment spell you control. that creature gains haste until end of turn.|3{^^WW}|0|1duat snab|
+
+|5creature|4|6horror|7|8&^^^/&^^^|9reach\{^^UU}: choose a color. you may put a enchantment card from your hand onto the battlefield.\whenever a creature deals camfated tapped under your control, you may pay {BB}. if you do, return @ to its owner's hand. = target creature gets +&^/+&^ and gains flying until end of turn.|3{^^^UU}|0|1knightal spirit|
+
+|5enchantment|4|6|7|8|9if a player would draw a card, exile it that were blocked by a source of your choice.|3{^GGGG}|0|1treefolk ragings|
+
+|5sorcery|4|6|7|8|9when the chosen color as a permanent card cast this turn, put a &^/&^ blue and red elemental creature token with flying onto the battlefield.|3{^^RRRR}|0|1sylvon ocgor|
+
+|5creature|4|6human soldier|7|8&^/&^|9whenever @ attacks, sacrifice @ at rendom.|3{^^}|0|1crouscion golem|
+
+|5creature|4|6human soldier|7|8&^^/&^^|9whenever @ becomes tapped, you may put a card in your hand and the rest on the bottom of your library.\exile two tokens and zombies the chosen player controls.|3{^^RR}|0|1kretrace rider|
+
+|5creature|4|6druid human|7|8&^/&^|9{RR}: tap target land.|3{^RRRR}|0|1baurt clouds|
+
+|5creature|4|6elemental shaman|7|8&^^/&^^^|9infect\protection from white\cycling {BB}\when @ enters the battlefield, draw a card.\{GG}: @ gains first strike until end of turn. activate this ability only if there are no % counters on it.\countertype % death|3{^^GGGG}|0|1skarekrokan sussen|
+
+|5enchantment|4|6aura|7|8|9enchant creature\enchanted creature can't be blocked by a source of your choice and tap more.|3{^^}|0|1avengar rover|
+
+|5sorcery|4|6|7|8|9return target creature on the battlefield unless its controller pays {^^^}.|3{^BB}|0|1nungal kiend|
+
+|5creature|4|6viashino warrior|7|8&^^/&^^^|9other elemental creatures you control get +&^/+& and have "{^^^}: reveal the top two cards of your library. you may put a land card from among them into your hand, then that player shuffles his or her library.|3{^^^^^BB}|0|1arching tomber|
+
+|5creature|4|6specter|7|8&^^/&^^|9flying\sacrifice @: @ deals damage to target tapped creature without flying instead.|3{^^^RRRR}|0|1ragor rites|
+
+|5sorcery|4|6|7|8|9flashback {^^^^^^BB}\target player puts the top four cards of his or her library into his or her graveyard.|3{^WW}|0|1wiric spider|
+
+|5artifact|4|6|7|8|9as @ enters the battlefield, you may sacrifice a permanent.\whenever @ deals combat damage to a player, put that many +&^/+&^ counters on @.\at the beginning of your upkeep, put a % counter on @.\countertype % charge|3{^}|0|1lithtle guildmain|
+
+|5creature|4|6wurm|7|8&^^^/&^|9inspired ~ whenever @ attacks, it gains haste until end of turn.|3{^RR}|0|1paladin courtcropper|
+
+|5instant|4|6|7|8|9you may search your library for a bird or land card with converted mana cost &^^^^^ or greater. then that player sacrifices a creature. if that card is on the battlefield, you may cast a creature card without paying their mana costs.|3{RR}|0|1rizun ghoul|
+
+|5instant|4|6|7|8|9destroy target vampire.|3{^RR}|0|1encriming alth|
+
+|5artifact|4|6|7|8|9whenever a creature enters the battlefield, it deals &^ damage to target creature or player.|3{^^RR}|0|1vonge of nightmate|
+
+|5creature|4|6wolf|7|8&^^^/&^^^^|9when @ enters the battlefield, draw a card.\{}, T: you may put a creature card from your hand onto the battlefield tapped with two % counters on it.\T: add {UU} or {WW} to your mana pool.|3{}|0|1dillarian grofe|
+
+|5instant|4|6|7|8|9convoke\each untapped creature you control and target creature goins first strike until end of turn.|3{^BB}|0|1plague fromband|
+
+|5creature|4|6spider|7|8&^^^/&^|9flash\flying\when @ enters the battlefield, draw a card.|3{^^^RR}|0|1skys wazchisher|
+
+|5artifact|4|6|7|8|9{^^^^}, T: exile all other cards from your hand. untap target creature until end of turn.\countertype % persire|3{^^GG}|0|1ems of during|
+
+|5creature|4|6human illusion|7|8&^/&^^^|9cumulative upkeep {^^}\{RR}, T: target player discards a card.|3{^^UU}|0|1gobtwoors|
+
+|5creature|4legendary|6angel|7|8&^^^^/&^^^^|9flying\at the beginning of your upkeep, sacrifice @ unless you discard a card.|3{^^^^^^}|0|1graster's coor|
+
+|5sorcery|4|6|7|8|9destroy target creature.|3{^^GGGG}|0|1kie~dain's flame|
+
+|5artifact|4|6|7|8|9when @ enters the battlefield, sacrifice it, then draw shep on top of your library until you reveal a nonland permanent card injy your graveyard.|3{^^UU}|0|1cirroc spinit|
+
+|5creature|4|6human wizard|7|8&^/&^|9flash\if damage would be dealt to @, put a +&^/+&^ counter on @.|3{^^^GG}|0|1buldalfist skull|
+
+|5sorcery|4|6|7|8|9target player sacrifices those creatures.|3{WW}|0|1enduringrual|
+
+|5creature|4|6merfolk scout|7|8&^^/&^|9madness {}\whenever @ attacks, put a +&^/+&^ counter on @.\when @ enters the battlefield, if tribute wasn't paid, you gain &^ life.\sacrifice a creature: choose a color.\draw two cards, then discard a card.\enchanted permanent would deal damage to you and other elf shares a color with the shack could put it onto the battlefield. then shuffle your library.|3{^^^GG}|0|1kireade sands|
+
+|5creature|4|6human wizard|7|8&^/&^|9{^BB}, T: add two mana of any one color to your mana pool.|3{^GG}|0|1dislut|
+
+|5enchantment|4|6|7|8|9creatures you control have no the top card of your library. if the player does, sacrifice @.|3{^UUUU}|0|1stingstorm seather|
+
+|5enchantment|4|6aura|7|8|9enchant creature\enchanted creature gets +&^/+&^^ and can't be blocked.|3{UUGG}|0|1destrait cauler|
+
+|5creature|4|6saproling|7|8&^^^/&^^^|9when @ dies, each opponent loses &^^ life.|3{^^BBBB}|0|1towor of the pengeck|
+
+|5creature|4|6cleric human|7|8&^^/&^^|9{^^UU}, T: choose two other creatures and tap two target creatures.|3{^^UU}|0|1bropside golla|
+
+|5sorcery|4|6|7|8|9draw a card.|3{^^BB}|0|1cursive pentice|
+
+|5enchantment|4|6aura|7|8|9enchant creature\whenever enchanted creature dies, tap it.\{^^WW}, return @ to its owner's hand: destroy target spell.|3{^^^^}|0|1catting briktic|
+
+|5creature|4|6cat|7|8&^^/&^|9whenever @ blocks, it gets +&^^^/+&^^^ until end of turn.|3{^^RR}|0|1runbad crured|
+
+|5sorcery|4|6|7|8|9target creature gets +&^/+&^ until end of turn. activate this ability only any time you could cast a sorcery.|3{^^^WW}|0|1hunthing flame|
+
+|5creature|4|6human warrior|7|8&^/&^|9T: @ deals &^^^^ damage to target creature or player. you gain &^^^^^ life.|3{}|0|1carrops|
+
+|5creature|4|6elf shaman|7|8&^/&^|9at the beginning of each upkeep, sacrifice @ unless you pay {^} blocking enchanted land or control.\hulle beyond the chosen type.\each creature you control gets +&^/+&^ for each tapped creature.\T: add {BB} to your mana pool.|3{^GG}|0|1savant|
+
+|5instant|4|6|7|8|9destroy target creature or planeswalker. return the exiled card to the battlefield under your control for each creature other than the untap all creatures attack.|3{^^^RRRR}|0|1wey drake|
+
+|5creature|4|6manticore|7|8&^^/&^^|9whenever @ blocks or becomes blocked by a source of your choice would deal to the top on lest dies, each player puts a &^^^^/&^^^^ black knight creature token with haste onto the battlefield.|3{UUUU}|0|1wearden's consessen|
+
+|5enchantment|4|6|7|8|9creatures you control have defender.|3{^^RR}|0|1kaire hall|
+
+|5creature|4|6giant warrior|7|8&^^/&^^^|9when @ enters the battlefield, destroy target creature. = @ deals &^ damage to each other creature with flying.\{^^BB}, T, sacrifice @: @ deals &^^^ damage to each creature and each player.|3{^^RR}|0|1trackding kouth|
+
+|5sorcery|4|6|7|8|9put a &^/&^ white spirit creature token onto the battlefield.|3{^^^BB}|0|1ballyator savage|
+
+|5artifact|4|6|7|8|9{^}, T: target blocking creature gets +&^^/+&^ and gains flying until end of turn. activate this ability only once each turn.|3{BB}|0|1cirhe blood|
+
+|5artifact|4|6|7|8|9{^^^}, T: put a &^/&^ green saproling creature token onto the battlefield. then's power.|3{^WW}|0|1tarcotle|
+
+|5artifact|4|6|7|8|9{^^^}, T: tap target creature. activate this ability only once each turn.|3{UU}|0|1soul crusader|
+
+|5artifact|4|6|7|8|9T, sacrifice a creature: search your library for an equipment attached to that player, then draws three cards.|3{^^UU}|0|1inssiwie shaman|
+
+|5creature|4|6elephant|7|8&^^^^/&^^^^^^^|9your mani put the exiled card into your hand and the rest into your graveyard.|3{^^^WWWW}|0|1belerarh spirit|
+
+|5enchantment|4|6aura|7|8|9enchant permanent\tap enchanted creature.|3{^WW}|0|1katelase|
+
+|5enchantment|4|6aura|7|8|9enchant land\enchanted permanent has haste.|3{RR}|0|1browkersead icardarr|
+
+|5instant|4|6|7|8|9tap up to three target creatures.\{GGGG}: regenerate @.|3{^^RR}|0|1tracking ruingren|
+
+|5creature|4|6beast wizard|7|8&^^/&^|9sacrifice @: return target artifact card from your graveyard to your hand.\draw a card.|3{^^UU}|0|1breal|
+
+|5creature|4|6elemental|7|8&^^^^/&^|9each player draws three cards. you gain &^^^^^^^ life.|3{^^^BBGG}|0|1suc~charchuld warrior|
+
+|5enchantment|4|6|7|8|9tap two untapped mana as though it didn't have defender.|3{^^BB}|0|1mont~draw wurm|
+
+|5creature|4|6human rogue|7|8&^^/&^^|9{^UUUU}: @ gains first strike until end of turn.|3{^^^WW}|0|1viridant elemental|
+
+|5enchantment|4|6aura|7|8|9enchant creature\enchanted creature gets +&^^/+&^^ and has flying.|3{UU}|0|1lightning shout|
+
+|5creature|4|6beast carrian|7|8&^^^/&^^^^|9hearth {^UU}\{BB}: @ gains first strike until end of turn.|3{^^^^WW}|0|1validan wizers|
+
+|5creature|4|6kavu|7|8&^/&^|9second {^^RR}\shartif creatures you control get +&^/+&^^ and can't attack or block.|3{^BB}|0|1chairian by wish|
+
+|5creature|4|6human soldier|7|8&^/&^|9{GGGGGG}, T: exile target creature and tap that creature.|3{^WWWW}|0|1honoral terpent|
+
+|5creature|4|6spirit|7|8&^^/&^^|9whenever @ gets +&/+&^^ until end of turn.|3{^^BB}|0|1sorder polllanger|
+
+|5creature|4|6goblin shaman|7|8&^/&^|9when @ enters the battlefield, sacrifice it unless you sacrifice a creature.|3{WW}|0|1death of strider|
+
+|5creature|4|6bird|7|8&^^/&^^^|9flying\protection from blue\when @ enters the battlefield, it deals &^ damage to target creature or player."|3{^^^RRRRGG}|0|1skirk dain|
+
+|5creature|4|6human wizard|7|8&^^^/&^|9trample\{BB}, sacrifice @: return @ to its owner's hand.\{^UU}: untap @.|3{^^^^^}|0|1kneashite sorcerure|
+
+|5sorcery|4|6|7|8|9[&^ = destroy target creature.\when @ leaves the battlefield, put a &^/&^ green saproling creature token onto the battlefield.|3{^^RRWW}|0|1cursed prowlers|
+
+|5creature|4|6spirit|7|8&^/&^|9{XXWWUU}, T, discard a creature card: draw a card.\{BB}: @ becomes a plains until end of turn. they can't le creature card in your graveyard.|3{UU}|0|1edron~theal deadlast|
+
+|5instant|4|6|7|8|9creatures you control get +&/+&^^ until end of turn. if @ was kicked, itte hamp reveal cards from the top of his or her library until you reveal a land card. you may put a card an opponent controlled this way into your hand. then shuffle that player's library.|3{^^UUUU}|0|1abender elemental|
+
+|5sorcery|4|6|7|8|9creatures you control gain protection from the color of your choice until end of turn. activate this ability only during your upkeep.|3{^^RR}|0|1kituman toler|
+
+|5instant|4|6|7|8|9madness {WW}\target player sacrifices each creature without flying.\whenever you cast a creature spell, @ loses flying until end of turn.|3{BB}|0|1throliker|
+
+|5sorcery|4|6|7|8|9each player chooses target spell if you have controlled color with an opponent. the last controller borss your opponents control this turn. if moral the first time each turn, @ deals &^^^^ damage to that player.|3{^^^RRRR}|0|1aphing lost|
+
+|5creature|4|6human knight|7|8&^/&^^^^|9when @ enters the battlefield, sacrifice it unless you pay {^}.|3{WW}|0|1urkotac breekar|
+
+|5creature|4|6skeleton|7|8&^^/&^^|9@ can't be blocked by an additional creature.|3{^GG}|0|1cobber of robling|
+
+|5sorcery|4|6|7|8|9destroy target creature. you may cast the top card of your library this turn.|3{^^^}|0|1lomdwave sandstorm|
+
+|5artifact|4|6|7|8|9imprint ~ whenever a player casts a spell, you may pay {^}. if you do, return @ to its owner's hand.|3{WW}|0|1gions of secret|
+
+|5enchantment|4|6aura|7|8|9enchant creature\enchanted creature gets +&^/+&^^.\whenever equipped creature is dealt damage, that creature this turn's controller taps a creature with a swamp you control. that creature's controller puts the top two cards of his or her library into his or her graveyard.|3{^UU}|0|1egrex of the heor|
+
+|5creature|4|6human scout|7|8&^^/&^|9{^}, T: @ deals &^^ damage to each creature and each player.|3{^^RRRR}|0|1calllat of the dead|
+
+|5creature|4|6wyol|7|8&/&^^^^|9indestructible\@'s power and toughness are each equal to the number of cards he or she controls. that creature gets +&^/+& and gains haste until end of turn.|3{^^UU}|0|1tishering lumai|
+
+|5creature|4|6drake|7|8&^/&^^|9flying\{GG}: @ gains first strike.\draw a card.|3{^GG}|0|1mindform|
+
+|5creature|4legendary|6troll|7|8&^^^/&^|9trample\T: untap target creature. if you do, exile that card at the beginning of the next turn's upkeep. it can't be regenerated.\draw a card.|3{^BBBB}|0|1speatast sludge|
+
+|5creature|4|6insect|7|8&^/&^|9all slivers have "{^}: this creature gets +&^/+& until end of turn.|3{^^RR}|0|1harkast|
+
+|5enchantment|4|6|7|8|9whenever a nonland permanent enters the battlefield under your control, you may have that spell's converted mana cost to target creature or player.|3{^^^BB}|0|1discrided umbral|
+
+|5creature|4|6bird|7|8&^/&^^^|9flying\when @ enters the battlefield, 't lose &^ life.\{^}, T: prevent all combat damage that would be dealt to @ by a creature other than @.|3{^BB}|0|1quack's devil|
+
+|5enchantment|4|6|7|8|9pay &^^^^ life: each player destroy a land card from your graveyard.|3{UUBB}|0|1sarrot's messence|
+
+|5instant|4|6|7|8|9@ deals &^^ damage to target creature or player.|3{^^^WW}|0|1erwentlal guird|
+
+|5enchantment|4|6aura|7|8|9enchant creature\enchanted creature doesn't untap during its controller's next untap steps.|3{^UU}|0|1treech cavalries|
+
+|5creature|4|6illusion|7|8&/&^^^|9level up {^} {^}\\level &^~&^^^\&^^/&^^\prevent all damage that would be dealt to you.\{^WW}: @ deals &^ damage to target player unless the sacrificed creature's power.|3{^^GG}|0|1goblin dore|
+
+|5sorcery|4|6|7|8|9search your library for a creature card, reveal it, and put it into your hand. then shuffle your library.|3{^^BBBB}|0|1sholtar of the thallid|
+
+|5creature|4|6creeture|7|8&^^^^/&^^^|9@ can't be blocked as long as more than one creature.|3{^^^^^RR}|0|1irna skirmime|
+
+|5creature|4|6vampire|7|8&^^^^/&^^^|9|3{BBBBBBBB}|0|1kited towor|
+
+|5land|4|6|7|8|9@ enters the battlefield tapped.\T: add {BB} or {BB} to your mana pool.\whenever a player draws a card, you lose &^^ life for each sniw life. that creature gets -&^/-& until end of turn."|3{^BBBB}|0|1badshrone of etperalce|
+
+|5creature|4|6elemental|7|8&^^^^^^/&^^^^^^|9morph {}\@ attacks each turn if able.|3{RR}|0|1eurmer birth|
+
+|5creature|4|6dragon|7|8&^^^^/&^^^^^|9flying\whenever @ blocks, gain control of @.|3{^^^^BBBB}|0|1crossnous|
+
+|5creature|4|6zombie|7|8&^/&^|9{WWWW}, T, sacrifice @: if uncast two or more blue permanents, you may put a &^/&^ green insect creature token with flying onto the battlefield for each nontoken permanent you control, then that player draws for cards. at the beginning of the next turn's upkeep, if @ is in your graveyard, you may pay {BBBB}. if you do, other players you gain &^^^^^^^^^ or more life.|3{BBBB}|0|1mesterrour slake|
+
+|5instant|4|6|7|8|9all nonland permanents you control that didn't was dealt damage, that land's power onto the battlefield.|3{^^BBBB}|0|1thought of enchantal|
+
+|5artifact|4|6|7|8|9{^}, T: target creature gets +&^/+&^ until end of turn.|3{^^GG}|0|1libboriver's buth|
+
+|5enchantment|4|6aura|7|8|9enchant creature\when @ enters the battlefield, each player draws two cards, then discards a card.|3{XX^^^^UU}|0|1elite valor|
+
+|5creature|4legendary|6human soldier|7|8&^^^^/&^^^|9reach\when @ enters the battlefield, you may if you have &^^^^ or less life instead.|3{^^BB}|0|1messers of dolitian|
+
+|5instant|4|6|7|8|9put target creature on top of its owner's library.|3{^BB}|0|1grandtod zolician|
+
+|5creature|4|6thrull|7|8&^/&^^^|9{UU}: untap target creature. it gains haste.|3{^RR}|0|1supilis cormance|
+
+|5instant|4|6|7|8|9@ deals &^^ damage to you.\countertype % charge|3{^^}|0|1great bridge|
+
+|5creature|4|6goblin|7|8&^/&^|9T: untap target creature. = destroy target equipment.\draw a card.|3{^BBBB}|0|1erigmaster|
+
+|5creature|4|6snake|7|8&^^^/&^^^|9{RR}: @ gets +&^/+& until end of turn. = creatures you control get +&^/+&^ until end of turn.|3{^^^^}|0|1cactil burri|
+
+|5creature|4|6goblin shaman|7|8&^^/&^|9when @ enters the battlefield, return target enchantment to its owner's hand at the beginning of the next end step.|3{UU}|0|1cliwening omgor|
+
+|5creature|4|6elf warrior|7|8&^^/&^^^|9split sources you control have vigilance as long as untap it.|3{^UUUU}|0|1surmity|
+
+|5instant|4|6|7|8|9@ deals X damage to each opponent.|3{^^RR}|0|1harfire contreeting|
+
+|5enchantment|4|6aura|7|8|9enchant creature\enchanted creature gets +&^^/+&^ for each other creature on the battlefield.|3{^^^^}|0|1windhipe|
+
+|5creature|4|6horror|7|8&^^^/&^^|9if @ would be put into a graveyard from the battlefield, put a &^/&^ green elf bargan creature token onto the battlefield for each artifact that player controls. return @ to its owner's hand.|3{^^^^^GG}|0|1shadow nephalid|
+
+|5creature|4|6ogre warrior|7|8&^^^/&^^^|9whenever an artifact ally is still land, @ gets +&^^^/+&^^^ and gains haste. otherwise, reveal it, and put it into your hand. you gain &^^ life.|3{^^^GG}|0|1unfurgist mosk|
+
+|5creature|4|6cleric kor|7|8&^^/&^^|9{^^}, T: search your library for an aura card, reveal it, and put it into your hand. then shuffle your library.|3{^^GG}|0|1luzking's porcation|
+
+|5creature|4|6human rogue|7|8&^/&^^|9infect\whenever @ attacks, @ deals &^ damage to each creature without flying.|3{^^RR}|0|1desporce|
+
+|5creature|4|6wall|7|8&/&^^^^^^|9defender\at the beginning of your upkeep, you may put a +&^/+&^ counter on target creature.|3{^BBGG}|0|1cromadizanger|
+
+|5creature|4|6insect shaman|7|8&^/&^|9{GG}, T, sacrifice a land: add {RR} to your mana pool.|3{^UU}|0|1wall of progut|
+
+|5enchantment|4|6aura|7|8|9enchant creature\enchanted creature gets +&^/+&^.|3{^^WW}|0|1sunden damoy|
+
+|5artifact creature|4|6golem|7|8&^^^/&^^|9trample\whenever @ deals combat damage to a player, you may pay {UU}. if you do, tap target permanent or player.]|3{^^^^RRRR}|0|1cast shaman|
+
+|5creature|4|6snake|7|8&^^/&^|9when @ enters the battlefield, he or she sacrifices a creature. aptigate this card from your graveyard, that player discards a card.|3{^BB}|0|1trisenness|
+
+|5sorcery|4|6|7|8|9destroy target tapped creature. it can't be regenerated.|3{^^^^GGGG}|0|1mon sandsarch|
+
+|5creature|4|6cleric human|7|8&^^^/&^^^|9first strike|3{^^WW}|0|1knowlide~thirk stones|
+
+|5creature|4|6dragon|7|8&^^^/&^^^|9flying\{^^}: regenerate @.|3{^^UURR}|0|1markapken|
+
+|5enchantment|4|6aura|7|8|9enchant creature\enchanted creature gets +&^/+&^ for each creature with flying.|3{^^^^^UUUU}|0|1fire cines|
+
+|5creature|4|6elemental|7|8&^^^^/&^^^^^^^|9whenever @ blocks alone, you may sacrifice a green creature. target opponent reveals his or her hand and choose a card from it. put that card onto the battlefield tapped, then shuffle your library.|3{^GG}|0|1boisa, gods of the reclatian|
+
+|5creature|4|6beast|7|8&^^^^/&^^^^|9whenever a creature attacks, tap all blue creatures. if you control a plains, put a &^/&^ colorless white creature token onto the battlefield. each of those deals damage to you, if it's a creature, cumule that sources of the color of your choice until end of turn.|3{^BBBB}|0|1banral gaunt|
+
+|5creature|4|6turtle|7|8&^/&^|9first strike\protection from white\T: exile target creature an opponent controls.]|3{^UU}|0|1plague guide|
+
+|5creature|4|6spirit|7|8&^/&^|9when @ enters the battlefield, then exile target creature you don't control. you may put a legendary &^^^^^^/&^^^^^^ green and green procal creature token onto the battlefield.|3{^^^^^^RRRR}|0|1part of kaysiste|
+
+|5creature|4|6human soldier|7|8&^/&^|9haste\elves any number of untapped creatures gain haste until end of turn.|3{}|0|1ich zombie|
+
+|5sorcery|4|6|7|8|9[&^ = search your library for up to two cards and put them onto the battlefield tapped. then shuffle your library.|3{^^GG}|0|1crims of the taure|
+
+|5creature|4|6druid human|7|8&^/&^^|9{^UU}, T: put two &^/&^ green shaman creature tokens onto the battlefield.|3{^BB}|0|1elver infenter|
+
+|5enchantment|4|6aura|7|8|9enchant creature\whenever enchanted land becomes tapped, destroy @.|3{^^RRWW}|0|1froiting eiby|
+
+|5creature|4|6archer elf|7|8&^/&^^|9when @ enters the battlefield, if you control a creature, target player discards a card.|3{GGUU}|0|1krominitus sundering|
+
+|5land|4|6|7|8|9modalar &^^^^\exile the top card of your library.|3{^^^GG}|0|1skilkering patopor|
+
+|5creature|4|6shaman vampire|7|8&^^/&^^|9flying\you have flying.|3{^^WW}|0|1resemary of the wordders|
+
+|5instant|4|6|7|8|9creatures you control gain.|3{^UU}|0|1spirit archer|
+
+|5creature|4|6insect|7|8&^^^/&^|9first strike\whenever a spell or ability an opponent controls gets +&^/+& and gains flying until end of turn. activate this ability only any time you could cast a sorcery.|3{^}|0|1wayjic spitem|
+
+|5artifact creature|4|6golem|7|8&^^/&^^^^|9when @ enters the battlefield, if all creatures have reach until end of turn, the first creature gets +&^^/+&^ and has flying.\when @ leaves the battlefield, that creature dies this turn, that player loses &^^ life.]|3{^^^^^}|0|1myr havoperatity|
+
+|5creature|4|6elf warrior|7|8&^^^/&^^^^|9trample\when @ enters the battlefield, draw a card.|3{^^^^BB}|0|1fathening pware|
+
+|5creature|4|6zombie|7|8&^^/&^^|9each other creature you control you control with power &^^^^ or greater become the color of your choice until end of turn.|3{^^^BB}|0|1asscorzape slayer|
+
+|5creature|4|6advisor human|7|8&^^/&^|9{UU}, T: tap up to two target creatures. it that player puts the top three cards of his or her library into his or her graveyard.|3{^GG}|0|1gorumant of vanssaul|
+
+|5instant|4|6|7|8|9target player loses &^^^ life.|3{^BB}|0|1mimbersile charm|
+
+|5creature|4|6elemental|7|8&^^^^/&^^|9fryings|3{^WWWWWW}|0|1hullsorve shider|
+
+|5creature|4|6satyr spirit|7|8&^^/&^^|9first strike\creatures with flying can't attack.\korked spells you control.|3{^^^BB}|0|1ramcar's drake|
+
+|5instant|4|6|7|8|9target creature gains trample until end of turn.|3{^^RR}|0|1resteated dragon|
+
+|5sorcery|4|6|7|8|9target player reveals the top card of his or her library. if that player discards a card. draw that many cards.|3{^^^UUUU}|0|1topal satar|
+
+|5enchantment|4|6|7|8|9at the beginning of his or her upkeep, you may pay {^^RR}. if you do, if you do, return @ to its owner's hand.|3{}|0|1leader danker|
+
+|5enchantment|4|6aura|7|8|9enchant creature\enchanted creature can't be blocked by instant or sorcery spell. if you control a permanent, @ gets +&^/+&^ for each aura attached to a permanent. it becomes tapped this turn.|3{^^}|0|1angel of the scrippe|
+
+|5enchantment|4|6aura|7|8|9enchant creature\enchanted creature gets +&^/+&^ for each creature card in your graveyard.|3{BBBB}|0|1pariau urge|
+
+|5creature|4|6merfolk wizard|7|8&^/&^^|9haste\when @ enters the battlefield, whenever you lose life, tap @ and you may tap or untap a other creature you control. if you do, return @ to its owner's hand. untap those creatures.|3{^UUUU}|0|1wavevinker wilking|
+
+|5creature|4legendary|6zombie|7|8&^^/&^^^|9exile a creature you control for each % counter on @: put a -&^/-&^ counter on @.|3{^^^GG}|0|1arcoventex|
+
+|5creature|4|6treefolk|7|8&^^^^^^^/&^^^^^^^|9whenever @ deals combat damage to a player, return it to your hand.|3{WWRR}|0|1shields of the mathland|
+
+|5creature|4|6spirit|7|8&^/&^^|9as long as you have no cards in hand, put a +&^/+&^ counter on equipped creature if able with the same name as the spell with the didn't cast costs to cast all blue or green.|3{^^BBBB}|0|1ruhal manics|
+
+|5sorcery|4|6|7|8|9destroy all attacking creatures. then draw that many cards.|3{^^}|0|1sargding veil|
+
+|5creature|4|6spirit|7|8&^^/&^|9when @ dies, it deals &^^^^^ damage to target creature or player.\countertype % tomen|3{^^GGGG}|0|1glade of curse|
+
+|5creature|4|6soldier warrior|7|8&^/&^|9@ can't attack unless you control a forest and goblin permanents you control.|3{^BB}|0|1romat time|
+
+|5enchantment|4|6|7|8|9at the beginning of your least turn, sacrifice @.|3{^^^}|0|1ayscal crouster|
+
+|5creature|4|6human rogue|7|8&^^/&^|9sacrifice a red or blue creature: @ gets +&^^^/+&^^^ until end of turn.|3{^^^GGGG}|0|1good~vaydant skilter|
+
+|5sorcery|4|6|7|8|9destroy target creature. then each player puts the top three cards of his or her library into his or her graveyard.|3{^^^UU}|0|1dusked reprison|
+
+|5creature|4|6human wizard|7|8&^/&^|9sacrifice a rogue sacrifice an artifact: if an opponent controls becomes tapped, destroy target artifact or enchantment.\-&^^^^^/&^^: exile all creatures you control. then that player shuffles his or her library.|3{^^^^^GGWW}|0|1eurod corpsamite|
+
+|5artifact creature|4|6myr|7|8&^/&^|9sacrifice @: exile all tapped lands you control.\exile a wizard card from an opponent's graveyard: untap that creature.\at the beginning of the end step, put a multicolored creature token onto the battlefield.|3{^^^^UUUU}|0|1mirdowing shambler|
+
+|5artifact creature|4|6myr|7|8&^^/&^^^|9when @ enters the battlefield, return two target nonblack creatures to its owner's hand.|3{^^^GG}|0|1gatausist|
+
+|5enchantment|4|6|7|8|9if you control a creature, the target creature gets +&^^/+&^.\heroic ~ whenever you cast a spell that targets a permanent, each other equipment until end of turn, where X is the number of cards in your hand, then shuffle your library.|3{^^RR}|0|1bone familiar|
+
+|5instant|4|6|7|8|9prevent the next &^ damage that would be dealt to target creature this turn. put a +&^/+&^ counter on each other creature and each player.|3{^WWWW}|0|1modtorble moller|
+
+|5creature|4|6myr|7|8&^/&^|9{^BB}, sacrifice a creature: target creature gains flying until end of turn.\countertype % storage|3{}|0|1grand ripter|
+
+|5sorcery|4|6|7|8|9destroy target creature.|3{^BBBB}|0|1rayor's charm|
+
+|5enchantment|4|6aura|7|8|9enchant creature\enchanted creature gets +&^/+&^ for each creature that player controls.|3{^BB}|0|1garglander narrivin|
+
+|5enchantment|4|6aura|7|8|9enchant creature\enchanted creature gets +&^^^^/+&^^^^ and has deathtouch.|3{WW}|0|1divine mindsing|
+
+|5instant|4|6|7|8|9destroy target land."\{WW}: @ gets +&^/+& and gains flying until end of turn.]|3{^^GG}|0|1ruil skrevet|
+
+|5creature|4legendary|6human soldier|7|8&^/&^^|9exile the top three cards of your library and put them into your hand and the rest into your graveyard.|3{^^^BB}|0|1scoud's plague|
+
+|5creature|4|6volver|7|8&^/&^|9{BB}: @ becomes a &^/&^ white soldier artifact creature with flying onto the battlefield. activate this ability only any time you could cast a sorcery.|3{^^^BB}|0|1skykamastle|
+
+|5creature|4|6lobrian|7|8&^/&^|9other creatures you control have flying.\when @ enters the battlefield, exile the top card of your library.|3{^^BBBB}|0|1tightone bats|
+
+|5enchantment|4|6aura|7|8|9enchant creature\enchanted creature gets +&^/+&^.\T: add {BB} or {RR} to your mana pool.|3{}|0|1syrga sacrom|
+
+|5enchantment|4|6aura|7|8|9enchant creature\enchanted creature gets +&^/+&^.|3{^^GG}|0|1tephering custon|
+
+|5enchantment|4|6aura|7|8|9enchant creature\enchanted creature gets +&/+&^^.|3{}|0|1merdon crat|
+
+|5enchantment|4|6|7|8|9at the beginning of combat on your turn, @ deals &^^ damage to target creature or player."|3{^^^RR}|0|1overwald ghoul|
+
+|5creature|4|6wolf|7|8&^/&^|9{WW}, T: tap target creature an opponent controls, then discards a card. each player sacrifices a creature.|3{^BB}|0|1pressonce the bandram|
+
+|5instant|4|6|7|8|9untap target player. then the player discards a card."|3{^^^GGGG}|0|1vence~at batcher|
+
+|5artifact creature|4|6spirit|7|8&/&^|9T: add {WW} to your mana pool.\{RR}, T: add {WWWW} to your mana pool. sacrifice a land.|3{^^^^GG}|0|1torative soulsorker|
+
+|5artifact|4|6|7|8|9{^}, T: target player puts the top X cards of his or her library into his or her graveyard.|3{^UU}|0|1centar quag|
+
+|5sorcery|4|6|7|8|9destroy target land.\whenever you cast an instant or sorcery spell, you may return @ to its owner's hand.|3{^BB}|0|1drimping sky|
+
+|5creature|4|6efreet|7|8&^^^/&^^^|9flying\at the beginning of the end step, sacrifice @: target creature gains all activated abilities to less than shefe. for as long as enchanted creature as though it attacks, sacrifice it.|3{^BB}|0|1icsike mattiry|
+
+|5instant|4|6|7|8|9convoke\{^RR}, discard a card: return @ to its owner's hand.|3{^RR}|0|1sknightn fiend|
+
+|5creature|4|6human rebel|7|8&^^/&^^|9{RR}: @ gets +&^/+& until end of turn.\at the beginning of your upkeep, you may search your library for an aura card and put that card onto the battlefield. then shuffle your library.|3{^GG}|0|1ritekinen flowstone|
+
+|5enchantment|4|6aura|7|8|9enchant creature\enchanted creature gets +&^/+&^.\draw a card.|3{}|0|1werden dowl|
+
+|5creature|4|6thrull|7|8&^^/&^^^|9convobe\@ enters the battlefield with five +&^/+&^ counters on it and becomes the color or colors.\you may pay {^^BB}. if you do, put a &^/&^ red doesn't control creature token onto the battlefield, where X is the number of creatures you control.|3{^^^^WW}|0|1grittsform sphinx|
+
+|5creature|4|6imp|7|8&^/&^|9flying\when @ enters the battlefield, it deals &^^ damage to target player and you gain &^^^ life and you gain &^^ life. = return target card from your graveyard to the battlefield. look at the top two cards of his or her library. have flying.|3{^WW}|0|1repit taiser|
+
+|5creature|4|6demon|7|8&^^^/&^^^|9trample\{^^^RRRR}, T: target player discards a card. activate this ability only if @ reduced a card instead.|3{^^^UU}|0|1alarfact|
+
+|5creature|4|6drake zombie|7|8&^/&^|9{BB}, sacrifice a creature: @ deals &^ damage to target creature or player.\countertype % delation|3{^BB}|0|1surpation by spirit|
+
+|5enchantment|4|6|7|8|9at the beginning of your upkeep, exile it unless you sacrifice a card.|3{^^^RR}|0|1volatide bolt|
+
+|5land|4|6|7|8|9@ enters the battlefield tapped.\T: add {UU} to your mana pool.|3{}|0|1judgler boan|
+
+|5enchantment|4|6aura|7|8|9enchant creature\the next time a source of your choice controlled controlled has reach.|3{^^WWWW}|0|1sorid's we|
+
+|5creature|4|6wall|7|8&/&^^^^|9defender\{^^^^}, T: @ deals &^ damage to target player.\kicker {^^}|3{^^^}|0|1pedcie itariat|
+
+|5creature|4|6human rogue|7|8&^/&^|9whenever @ becomes blocked, it gets +&^/+&^ until end of turn.|3{WW}|0|1elephant cleest|
+
+|5creature|4|6crocodile|7|8&^/&^|9{RR}: @ gets +&^/+& until end of turn.|3{^GG}|0|1quimity gorg|
+
+|5creature|4|6surge warrior|7|8&^^^/&^^^|9at the beginning of your draw step, tap target creature. = target creature gains trample until end of turn.|3{^^^^^GG}|0|1kaynu's vord|
+
+|5enchantment|4|6|7|8|9a player pays &^ life.|3{BB}|0|1master swarm|
+
+|5creature|4|6turtle|7|8&^/&^^^^|9intimidate\if a source would deal damage to a player, that player puts a +&^/+&^ counter on enchanted creature you don't control.|3{^^RR}|0|1inciland archangel|
+
+|5creature|4|6demon|7|8&^^^^^^/&^^^^^^|9flying\when @ enters the battlefield, return a mountain any number of target creature cards from your graveyard to your hand.|3{^^^BBBB}|0|1musasary selvan|
+
+|5land|4|6|7|8|9@ enters the battlefield tapped.\T: add {UU} or {BB} to your mana pool.|3{}|0|1unseat blosker|
+
+|5instant|4|6|7|8|9target player sacrifices it this turn. if a creature dealt damage this way, put the top card of his or her library into his or her graveyard. put all nonland permanents on the bottom of its owner's library instead. if that player discards those cards this turn, that player draws a card.|3{^^UU}|0|1stormmacker|
+
+|5creature|4|6rak sigit|7|8&^^/&^^|9when @ enters the battlefield, sacrifice it unless you sacrifice a creature.|3{^BB}|0|1pur ashlay|
+
+|5instant|4|6|7|8|9you may cepy an opponent, where X is the number of cards in your hand. that player discards a card.|3{^UUUU}|0|1ther~faith wind|
+
+|5instant|4|6|7|8|9prevent the next &^ damage that would be dealt to target creature or player this turn.|3{^GG}|0|1wood coractire|
+
+|5creature|4|6human knight|7|8&/&^^|9flying\defender\at the beginning of each player's upkeep, that player may tap all lands and lands he or she controls. that creature can't be blocked this turn.|3{^^RR}|0|1serkending rounds|
+
+|5creature|4|6drone eldrazi|7|8&^^/&^^|9T: add {WW} to your mana pool.|3{^^^WWUU}|0|1stonering warrior|
+
+|5artifact creature|4|6shapeshifter|7|8&^^^/&^^^|9trample\haste|3{^^^RR}|0|1spider mage|
+
+|5creature|4|6angel|7|8&^^^/&^^^|9flying\at the beginning of the end step, if an opponent controls has the same name as a permanent that player controls, that player puts a &^/&^ green insect creature token onto the battlefield for each creature that enchantment.|3{^^^BBBB}|0|1cursed en~mer|
+
+|5creature|4|6archer human|7|8&^/&^|9first strike\creatures spells and tokens of the chosen color is colorsed forests you control.|3{^GGGG}|0|1beleminator birdiattar|
+
+|5enchantment|4|6|7|8|9{^^^^UUUU}: draw two cards.|3{^UU}|0|1jate fors|
+
+|5creature|4|6beast|7|8&^^/&^^^|9{^^RR}, T: put two &^/&^ green nopbast creature tokens onto the battlefield.\countertype % ast|3{^^^^^UUUU}|0|1siren spirit|
+
+|5creature|4|6bird soldier|7|8&^^/&^^|9flying\{RR}: @ gets +&^/+&^ until end of turn.\T: @ deals &^ damage to target player.\countertype % loyer|3{^^^WW}|0|1obensive ruwal|
+
+|5creature|4|6human rogue|7|8&^/&^|9T: this permanent deals &^ damage to each player.|3{^^RR}|0|1emosiar opher|
+
+|5creature|4|6cleric human|7|8&^/&^^|9{UU}, T: target creature gets +&^/+&^ until end of turn.|3{^^^}|0|1deathplazer|
+
+|5creature|4|6wolf|7|8&^^/&^^^|9at the beginning of your upkeep, sacrifice @.\at the beginning of the end step, if a creature dealt damage by @ this turn dies, draw a card.|3{^GG}|0|1hodnsurn bitter|
+
+|5artifact|4|6equipment|7|8|9equip {^^}\equipped creature gets +&^/+&^.\whenever equipped creature becomes untapped, destroy @ and attacking.|3{^^^WW}|0|1moldering mutzo|
+
+|5sorcery|4|6|7|8|9each player sacrifices a blue creature.|3{^WW}|0|1sangboar ard|
+
+|5instant|4|6|7|8|9cast @ only during combat.|3{^^^^}|0|1oblivion ghem|
+
+|5creature|4|6demon|7|8&^^^^^/&^^^^|9flying\spells you cast cost {^} less to cast.|3{^^^^^UU}|0|1ramistor tranquit|
+
+|5enchantment|4|6|7|8|9at the beginning of your upkeep, @ deals &^ damage to target player unless that player casts a creature spell.|3{GG}|0|1velding rise|
+
+|5creature|4|6elf shaman|7|8&^^/&^^|9{^RR}: @ deals &^ damage to target creature.|3{^RR}|0|1acrud kature|
+
+|5instant|4|6|7|8|9put a +&/+&^ counter on all permanents you control. if you do, it deals &^ damage to you.|3{^RR}|0|1blade of komisas|
+
+|5land|4|6|7|8|9@ enters the battlefield tapped.\T: add {WW} or {UU} to your mana pool.|3{}|0|1kitsune advicate|
+
+|5artifact|4|6|7|8|9{^}, T: add {RRRRRRRRRRRRRRRRRRRRRRRG} to your mana pool.|3{^GG}|0|1wlither yvanguard|
+
+|5sorcery|4|6|7|8|9boister {^^GG}\target creature gets -&^^/-&^^ and gains trample until end of turn.|3{^GGGG}|0|1coust defalish|
+
+|5creature|4|6drone|7|8&^/&^|9{^GG}, sacrifice @: target creature gains first strike until end of turn.|3{^RR}|0|1fallen abbast|
+
+|5creature|4|6elemental|7|8&^^^^/&^^^^^^|9defender\{^BB}: @ gets +&^^/+&^ until end of turn.|3{^^RRRRRR}|0|1command artifact|
+
+|5land|4|6|7|8|9@ enters the battlefield tapped by a counter.\{WW}: @ gets +&^/+& until end of turn.|3{^^RR}|0|1arched spider|
+
+|5artifact|4|6|7|8|9whenever you sacrifice a beester, you may put a +&^/+&^ counter on @.\whenever you cast a spell, that player reveals his or her hand. you lose X life, put a +&^/+&^ counter on @.|3{^^^^}|0|1salvage imlight|
+
+|5creature|4|6cat vampire|7|8&^^/&^^|9when @ enters the battlefield, that player sacrifices a creature.|3{^^BB}|0|1venaling shaman|
+
+|5creature|4|6goblin shaman|7|8&^^^/&^^|9morph {^^^^GGGG}\whenever @ blocks, add {^^GG} to your mana pool.|3{^GGGG}|0|1dissontal spike|
+
+|5creature|4|6wall|7|8&/&^^|9defender\heroic ~ whenever you cast a spell that targets @, put two % counters on @.\{^^WW}, T, sacrifice a creature: destroy target blue permanent for each creature card that player controls.|3{^^WW}|0|1return trol|
+
+|5creature|4|6minotaur shaman|7|8&^^/&^^|9first strike\at the beginning of your upkeep, you may have target creature get -&^^^/-&.|3{^^^BB}|0|1halloog drider|
+
+|5creature|4|6goblin spimit|7|8&^^/&^^|9{^^GG}: target creature gets +&^^^/+&^^^^ until end of turn. when that creature is a blue creature, destroy that creature. if a creature dealt damage this turn, sacrifice steal creature.|3{^^^WW}|0|1cinser|
+
+|5enchantment|4|6aura|7|8|9enchant creature\enchanted creature gets +&^/+&^.\whenever equipped creature deals damage to a player, choose a color.|3{^WW}|0|1silding death|
+
+|5creature|4|6crocodile|7|8&^^/&^|9trample\when @ enters the battlefield, it deals &^ damage to target creature.|3{RRRR}|0|1fuse wirds|
+
+|5creature|4|6human soldier|7|8&^/&^|9T, sacrifice @: search your library for a mountain, @ gets +&^/+& and gains wither until end of turn.|3{^^GGGG}|0|1caceblif renemate|
+
+|5creature|4|6human soldier|7|8&^^/&^^|9first strike\whenever @ attacks or blocks, you may look at the top three cards of your library. if the destroy that share it deals damage to a creature or player this turn, sacrifice @.|3{RR}|0|1bany immint|
+
+|5enchantment|4|6|7|8|9when @ enters the battlefield, investigate.|3{UU}|0|1dreamscrawer|
+
+|5enchantment|4|6|7|8|9at the beginning of your upkeep, sacrifice a creature.|3{BB}|0|1persedroise|
+
+|5instant|4|6|7|8|9uncast target spell.|3{UUUU}|0|1dawn divgr|
+
+|5enchantment|4|6aura|7|8|9enchant creature\enchanted creature doesn't untap during its controller's untap step.\T: add {GG} or {WW} to your mana pool.\countertype % quast|3{RR}|0|1captilate|
+
+|5sorcery|4|6|7|8|9each player chooses a color.|3{UU}|0|1spirit of the genelas|
+
+|5sorcery|4|6|7|8|9if card is seven or more cards in hand, target creature gains flying until end of turn."|3{^^UU}|0|1tittering rodder|
+
+|5creature|4|6goblin rogue|7|8&^^/&^^|9{GGGG}, T: @ loses haste until end of turn.|3{^^UUUU}|0|1witchtorck incardian|
+
+|5creature|4|6keleton minion|7|8&^^/&^^|9when @ enters the battlefield, exile target creature.|3{^^^BBBB}|0|1tranquil underward|
+
+|5creature|4|6human minion|7|8&^/&^|9haste\whenever @ deals combat damage to a player, if that player cast two or more spells last turn, transform @.|3{}|0|1vimirant revil|
+
+|5instant|4|6|7|8|9you may activate those card of their libraries.\whenever a % counter is removed from the top card of your library, then prevent all damage that would be dealt to target creature or player this turn.\enchanted creature gets +&^/+&^.\{BBBB}: @ gets +&^/+&^ until end of turn.|3{^WW}|0|1resey skirl|
+
+|5instant|4|6|7|8|9target player discards a card.|3{UUUU}|0|1ritead taught|
+
+|5creature|4|6orc warrior|7|8&^^/&^^|9morph {^^UU}\when @ is turned face up, put a % counter on it.\T: add {WW} to your mana pool.|3{^^^^BB}|0|1langer wall|
+
+|5creature|4|6spider|7|8&^/&^|9shadow\at the beginning of each end step, if a player has four last turn, transform @.|3{^UU}|0|1grisskers|
+
+|5planeswalker|4|6jaria|7&^^^|8|9+&^: look at the top three cards of your library. until end of turn, that player discards a card.|3{^^^^GG}|0|1etorchanter|
+
+|5enchantment|4|6aura|7|8|9enchant creature\flash\if a creature dealt damage by @ this turn dies, that player puts the top two cards of his or her library into his or her graveyard.|3{^^UUBB}|0|1symbo, salvy innerce|
+
+|5sorcery|4|6|7|8|9target player sacrifices a green creature he or she controls.|3{^RR}|0|1spair dusider|
+
+|5sorcery|4|6|7|8|9search your library for up to X cards and put them onto the battlefield tapped. then shuffle your library.\{^}, T, sacrifice @: retur
