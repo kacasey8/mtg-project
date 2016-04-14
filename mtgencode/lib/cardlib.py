@@ -127,16 +127,7 @@ fmt_ordered_default = [
 ]
 
 # custom adding flavor
-fmt_ordered_with_flavor = [
-    field_types,
-    field_supertypes,
-    field_subtypes,
-    field_loyalty,
-    field_pt,
-    field_text,
-    field_cost,
-    field_rarity,
-    field_name,
+fmt_flavor = [
     field_flavor,
 ]
 

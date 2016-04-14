@@ -39,7 +39,7 @@ def main(fname, oname = None, verbose = True, encoding = 'std',
     elif encoding in ['vec']:
         pass
     elif encoding in ['custom']:
-        fmt_ordered = cardlib.fmt_ordered_with_flavor
+        fmt_ordered = cardlib.fmt_flavor
         ## put custom format decisions here ##########################
         
         ## end of custom format ######################################

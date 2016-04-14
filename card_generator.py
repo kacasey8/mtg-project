@@ -91,11 +91,29 @@ class CardGenerator:
 
   def generate_playable_card(self):
     # uses color, and labels to generate a name and all relevant abilities
-    self.name = "Maw of Kozilek"
     database = get_card_database()
 
+    choices = database[self.color]
+    names = []
+    found_indicies = []
+    for index, card in enumerate(choices):
+      lines = card.split('\n')
+      name_and_mana_cost = lines[0].split()
+      name = ' '.join(name_and_mana_cost[:-1])
+      names.append(name)
+
+      for label in self.labels:
+        if label in name:
+          # good enough of a match for me...
+          found_indicies.append(index)
+
     import random
-    card = random.choice(database[self.color])
+    if len(found_indicies) != 0:
+      index = random.choice(found_indicies)
+      card = choices[index]
+    else:
+      card = random.choice(database[self.color])
+
     lines = card.split('\n')
     name_and_mana_cost = lines[0].split()
     self.name = ' '.join(name_and_mana_cost[:-1])
@@ -111,16 +129,32 @@ class CardGenerator:
   def generate_card_flavor_text(self):
     # uses the card name, and maybe labels or color to generate flavor
     self.flavor = "Lol flavor TODO"
+    # Going to use a word2vec to try to find flavor similar to the labels
 
-  def generate_card_abilities(self):
-    # uses color and name to generate all relevant abilities
-    # of the card
-    # this will generate rules_text, mana_cost, type info,
-    # and power/toughness if relevant.
-    self.rules = 'Devoid'
-    self.mana_cost = '3R'
-    self.type = 'Creature - Eldrazi Drone'
-    self.power_toughness = '2/5'
+
+    # choices = database[self.color]
+    # from gensim import corpora, models, similarities
+    # names = []
+    # for card in choices:
+    #   lines = card.split('\n')
+    #   name_and_mana_cost = lines[0].split()
+    #   name = ' '.join(name_and_mana_cost[:-1])
+    #   names.append(name)
+    # stoplist = set('for a of the and to in'.split())
+    # texts = [[word for word in name.lower().split() if word not in stoplist]
+    #           for name in names]
+
+    # dictionary = corpora.Dictionary(texts)
+    # corpus = [dictionary.doc2bow(text) for text in texts]
+
+    # lsi = models.LsiModel(corpus, id2word=dictionary, num_topics=2)
+    # doc = ' '.join(self.labels)
+    # vec_bow = dictionary.doc2bow(doc.lower().split())
+    # vec_lsi = lsi[vec_bow]
+    # index = similarities.MatrixSimilarity(lsi[corpus])
+    # sims = index[vec_lsi]
+    # sims = sorted(enumerate(sims), key=lambda item: -item[1])
+    # import pdb; pdb.set_trace()
 
   def generate(self):
     self.generate_card_color()
