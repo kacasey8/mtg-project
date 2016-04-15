@@ -6,6 +6,7 @@ image to create a relevant magic card.
 
 import math
 import collections
+import random
 
 def closest_color(red, green, blue):
   """
@@ -45,13 +46,11 @@ def get_card_database():
   content = cards_sample.read()
   # the cards are split by \n\n from mtgencode
   cards = content.split('\n\n')
-  real_cards = []
   possible_colors = {'R' : 'Red', 'U' : 'Blue', 'G' : 'Green', 'B' : 'Black', 'W' : 'White'}
   for card in cards:
     if '~~~~~~~~' in card:
       # not a real card, some kind of marker.
       continue
-    real_cards.append(card)
     lines = card.split('\n')
     first_line = lines[0] # first line has mana cost info
     mana_cost = first_line.split(' ')[-1]
@@ -63,6 +62,22 @@ def get_card_database():
 
     colors_string = ','.join(colors)
     database[colors_string].append(card)
+
+  return database
+
+def get_flavor_database():
+  database = []
+  flavor = open('legacy_flavor.txt', 'r')
+  content = flavor.read()
+  # the flavor is split by \n\n from mtgencode
+  flavors = content.split('\n\n')
+  for flavor in flavors:
+    if '~~~~~~~~' in flavor:
+      # not a real card, some kind of marker.
+      continue
+    flavor = flavor.replace('|', '')
+    flavor = flavor.replace('`', '')
+    database.append(flavor)
 
   return database
 
@@ -107,7 +122,6 @@ class CardGenerator:
           # good enough of a match for me...
           found_indicies.append(index)
 
-    import random
     if len(found_indicies) != 0:
       index = random.choice(found_indicies)
       card = choices[index]
@@ -131,30 +145,29 @@ class CardGenerator:
     self.flavor = "Lol flavor TODO"
     # Going to use a word2vec to try to find flavor similar to the labels
 
+    flavor_database = get_flavor_database()
+    try:
+      from gensim import corpora, models, similarities
+      stoplist = set('for a of the and to in'.split())
+      texts = [[word for word in flavor.lower().split() if word not in stoplist]
+                for flavor in flavor_database]
 
-    # choices = database[self.color]
-    # from gensim import corpora, models, similarities
-    # names = []
-    # for card in choices:
-    #   lines = card.split('\n')
-    #   name_and_mana_cost = lines[0].split()
-    #   name = ' '.join(name_and_mana_cost[:-1])
-    #   names.append(name)
-    # stoplist = set('for a of the and to in'.split())
-    # texts = [[word for word in name.lower().split() if word not in stoplist]
-    #           for name in names]
+      dictionary = corpora.Dictionary(texts)
+      corpus = [dictionary.doc2bow(text) for text in texts]
 
-    # dictionary = corpora.Dictionary(texts)
-    # corpus = [dictionary.doc2bow(text) for text in texts]
-
-    # lsi = models.LsiModel(corpus, id2word=dictionary, num_topics=2)
-    # doc = ' '.join(self.labels)
-    # vec_bow = dictionary.doc2bow(doc.lower().split())
-    # vec_lsi = lsi[vec_bow]
-    # index = similarities.MatrixSimilarity(lsi[corpus])
-    # sims = index[vec_lsi]
-    # sims = sorted(enumerate(sims), key=lambda item: -item[1])
-    # import pdb; pdb.set_trace()
+      lsi = models.LsiModel(corpus, id2word=dictionary, num_topics=2)
+      doc = ' '.join(self.labels)
+      vec_bow = dictionary.doc2bow(doc.lower().split())
+      vec_lsi = lsi[vec_bow]
+      index = similarities.MatrixSimilarity(lsi[corpus])
+      sims = index[vec_lsi]
+      sims = sorted(enumerate(sims), key=lambda item: -item[1])
+      best_match = sims[0]
+      index, score = best_match
+      self.flavor = flavor_database[index]
+    except ImportError:
+      print("Tried to import gensim for flavor text matching, just using random instead")
+      self.flavor = random.choice(flavor_database)
 
   def generate(self):
     self.generate_card_color()
