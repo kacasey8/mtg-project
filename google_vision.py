@@ -17,7 +17,7 @@ this file. I put an OFFLINE var that will stop the call unless you change it to
 False.
 """
 
-OFFLINE = True
+OFFLINE = False
 
 def execute_google_vision(photo_file):
   '''Run a label request on a single image'''

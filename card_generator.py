@@ -12,6 +12,8 @@ def closest_color(red, green, blue):
   """
   Determines whether the RBG value is closer to white, blue
   green, red, black or not really any of them.
+  Theory taken from
+  http://stackoverflow.com/questions/12069494/rgb-similar-color-approximation-algorithm
   """
   my_ycc = _ycc(red, green, blue)
   choices = [('red', _ycc(255, 0, 0)), ('blue', _ycc(0, 0, 255)), ('green', _ycc(0, 0, 204)), ('black', _ycc(0, 0, 0)), ('white', _ycc(255, 255, 255))]
@@ -33,7 +35,8 @@ def closest_color(red, green, blue):
 
 def _ycc(r, g, b): # in (0,255) range
   """
-  Converts RBG into ycc color space which should be predict colors
+  Converts RBG into ycc color space which should be able to more accurately
+  predict colors.
   """
   y = .299*r + .587*g + .114*b
   cb = 128 -.168736*r -.331364*g + .5*b
@@ -41,8 +44,16 @@ def _ycc(r, g, b): # in (0,255) range
   return y, cb, cr
 
 def get_card_database():
+  """
+  Loads in a bunch of cards we have pre generated.
+  We'll sort the cards into what color they are, and then
+  attempt to grab one of these cards as a base for the card we are generating.
+
+  This assumes the database of cards is saved at 'large_sample_readable.cards'
+  """
+  filename = 'large_sample_readable.cards'
   database = collections.defaultdict(list)
-  cards_sample = open('large_sample_readable.cards', 'r')
+  cards_sample = open(filename, 'r')
   content = cards_sample.read()
   # the cards are split by \n\n from mtgencode
   cards = content.split('\n\n')
@@ -56,7 +67,9 @@ def get_card_database():
     mana_cost = first_line.split(' ')[-1]
 
     colors = []
-    for color in possible_colors:
+    # stable order with the sort
+    keys = sorted(possible_colors.keys())
+    for color in keys:
       if color in mana_cost:
         colors.append(possible_colors[color])
 
@@ -66,8 +79,16 @@ def get_card_database():
   return database
 
 def get_flavor_database():
+  """
+  Loads in a bunch of flavor texts we have pre generated.
+  We'll attempt to grab one of these that is related to the image
+  we are generating from.
+
+  This assumes the database of flavor is saved at 'legacy_flavor.txt'
+  """
+  filename = 'legacy_flavor.txt'
   database = []
-  flavor = open('legacy_flavor.txt', 'r')
+  flavor = open(filename, 'r')
   content = flavor.read()
   # the flavor is split by \n\n from mtgencode
   flavors = content.split('\n\n')
@@ -141,9 +162,8 @@ class CardGenerator:
       self.power_toughness = None
 
   def generate_card_flavor_text(self):
-    # uses the card name, and maybe labels or color to generate flavor
-    self.flavor = "Lol flavor TODO"
-    # Going to use a word2vec to try to find flavor similar to the labels
+    # uses the labels of the image to find a relevant flavor text
+    # Uses word2vec to try to find flavor similar to the labels
 
     flavor_database = get_flavor_database()
     try:
@@ -170,12 +190,14 @@ class CardGenerator:
       self.flavor = random.choice(flavor_database)
 
   def generate(self):
+    # Triggers generation of the card.
     self.generate_card_color()
     self.generate_playable_card()
     self.generate_card_flavor_text()
     self.generated = True
 
   def __str__(self):
+    # For printing cards. Better readability, but doesn't look that great
     if not self.generated:
       return "call generate first!"
     attributes = ["Color: %s" % self.color, "Name: %s" % self.name]
