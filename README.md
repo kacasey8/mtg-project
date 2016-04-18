@@ -1,7 +1,7 @@
 # Robo Rosewater Project
 Generating magic cards from random images.
 
-Currently I can get labels from images (e.g. an image has a sailboat and a sun) from the google vision api and I can also generate unique new cards using mtg-rnn after training on the AllSets.json data from http://mtgjson.com/. However, I need a way to link the two. The current plan is to get flavor text into the mix using https://deckbrew.com/api/, then generate a bunch of new cards. After that I can find one of my generated cards that is related to the labels from an image.
+Currently I can get labels from images (e.g. an image has a sailboat and a sun) from the google vision api and I can also generate unique new cards using mtg-rnn after training on all the legacy cards. I'm currently linking the two through exact text matching between labels and the card names that are generated, and also enforcing the color of the card matches. To get flavor text I'm currently just choosing between all the flavor texts on legacy mtg cards and using gensim (https://radimrehurek.com/gensim/index.html) to find the best match.
 
 ## Using Other Projects
 - Both are under MIT license
@@ -13,16 +13,18 @@ Currently I can get labels from images (e.g. an image has a sailboat and a sun) 
 - google_vision.py reads an image and gets information about it and stores the result to 'cached.txt' so we don't have to keep executing google_vision.py
 - cached.txt holds the result of the google_vision.py function. Currently it holds the result of processing the 'Sailboat-sunset.jpg'
 - Sailboat-sunset.jpg is a test file for image processing
-- parser.py reads the results from cached.txt into a slightly more managable format
-- dominant_color.py could be useful for figuring out the dominant color(s). It generates RBG values similar to what the google_vision api does
+- cache_parser.py reads the results from cached.txt into a slightly more managable format
 
 ### Card Generation
 - main.py triggers the parser to get the cached image processing results, then feeds that to the card generator
+- main_with_google_vision.py triggers google_vision.py to get image processing results and then feeds that into main.py
 - card_generator.py generates everything about the card from the image info.
 
 ### Scraping
-- scrap_deckbrew_for_card_with_flavor.py scraps https://deckbrew.com/api/. This is useful because the api only returns 100 cards at a time. I'm using all the modern cards as a training set for the neural network.
-- modern_cards.json is a json file for all modern cards
-- legacy_cards.json ^
-- standard_cards.json ^
+- scrap_deckbrew_for_card_with_flavor.py scraps https://deckbrew.com/api/. This script is useful because the api only returns 100 cards at a time. I'm using all the legacy cards as a training set for the neural network.
+- legacy_cards.json is a json file for all legacy cards
 
+### Data files
+- large_final_sample.cards are 31,858 cards generated from mtg-rnn that was trained from all cards in legacy for a few days
+- large_final_sample_readable.cards are those same 31,858 but after running mtgencode/decode.py on it
+- legacy_flavor.txt is a placeholder for all legacy flavor textx currently in use. Later we will use generated flavor text instead.
