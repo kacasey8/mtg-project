@@ -51,7 +51,7 @@ def get_card_database():
 
   This assumes the database of cards is saved at 'large_sample_readable.cards'
   """
-  filename = 'large_sample_readable.cards'
+  filename = 'large_final_sample_readable.cards'
   database = collections.defaultdict(list)
   cards_sample = open(filename, 'r')
   content = cards_sample.read()
@@ -175,7 +175,7 @@ class CardGenerator:
       dictionary = corpora.Dictionary(texts)
       corpus = [dictionary.doc2bow(text) for text in texts]
 
-      lsi = models.LsiModel(corpus, id2word=dictionary, num_topics=2)
+      lsi = models.LsiModel(corpus, id2word=dictionary)
       doc = ' '.join(self.labels)
       vec_bow = dictionary.doc2bow(doc.lower().split())
       vec_lsi = lsi[vec_bow]
