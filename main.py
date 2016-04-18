@@ -1,4 +1,4 @@
-import parser
+import cache_parser
 import card_generator
 
 """
@@ -9,18 +9,15 @@ Uses the resulting labels and color info from the image processing
 and sends that to the CardGenerator class so that a card can be generated.
 """
 
-
 def generate_magic_card(labels, color_info, debug=False):
-  card = card_generator.CardGenerator(labels, color_info)
+  if debug:
+    print "Labels: %s\n" % labels
+    print "Color info: %s\n" % color_info
+  card = card_generator.CardGenerator(labels, color_info, debug)
   card.generate()
   print(card)
 
-def generate_magic_card_from_filename(file_name):
-  # this should call google_vision.py eventually
-  # and pass the results to the other generate_magic_card
-  return None
 
-
-labels, color_info = parser.read_cache()
-
-generate_magic_card(labels, color_info)
+if __name__ == '__main__':
+  labels, color_info = cache_parser.read_cache()
+  generate_magic_card(labels, color_info)

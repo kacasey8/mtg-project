@@ -16,7 +16,7 @@ def closest_color(red, green, blue):
   http://stackoverflow.com/questions/12069494/rgb-similar-color-approximation-algorithm
   """
   my_ycc = _ycc(red, green, blue)
-  choices = [('red', _ycc(255, 0, 0)), ('blue', _ycc(0, 0, 255)), ('green', _ycc(0, 0, 204)), ('black', _ycc(0, 0, 0)), ('white', _ycc(255, 255, 255))]
+  choices = [('red', _ycc(255, 0, 0)), ('blue', _ycc(0, 0, 255)), ('green', _ycc(0, 0, 150)), ('black', _ycc(0, 0, 0)), ('white', _ycc(255, 255, 255))]
   results = []
   for choice in choices:
     y1, cb1, cr1 = my_ycc
@@ -26,6 +26,7 @@ def closest_color(red, green, blue):
 
   sorted_results = sorted(results, key=lambda x: x[1])
   best_match = sorted_results[0]
+  import pdb; pdb.set_trace()
   if best_match[1] < 100:
     # 100 is kind of arbitrary...but need a way to get rid colors that 
     # are just not close to any other color
@@ -105,10 +106,11 @@ def get_flavor_database():
 
 class CardGenerator:
 
-  def __init__(self, labels, color_info):
+  def __init__(self, labels, color_info, debug=False):
     self.labels = labels
     self.color_info = color_info
     self.generated = False
+    self.debug = debug
 
   def generate_card_color(self):
     # uses color info to get an appropriate color
@@ -118,9 +120,13 @@ class CardGenerator:
       color_vote = closest_color(rbg_values['red'], rbg_values['green'], rbg_values['blue'])
       votes[color_vote] += 1 * single_color_info['pixelFraction'] * single_color_info['score']
     sorted_votes = sorted(votes.items(), key=lambda x: x[1])
+    if self.debug:
+      print "Votes for color choice: %s\n" % sorted_votes
     if len(sorted_votes) > 1:
       best_match = sorted_votes[-1]
       self.color = best_match[0].capitalize()
+      if self.debug:
+        print "Color chosen: %s\n" % self.color
       # should check for second best match for multi color?
     else:
       self.color = None
@@ -142,6 +148,8 @@ class CardGenerator:
         if label in name:
           # good enough of a match for me...
           found_indicies.append(index)
+          if self.debug:
+            print "Matching %s label with %s" % (label, name)
 
     if len(found_indicies) != 0:
       index = random.choice(found_indicies)
@@ -182,7 +190,13 @@ class CardGenerator:
       index = similarities.MatrixSimilarity(lsi[corpus])
       sims = index[vec_lsi]
       sims = sorted(enumerate(sims), key=lambda item: -item[1])
-      best_match = sims[0]
+
+      # kind of arbitrary, choice a random from the top 10 to spice it up.
+      best_matches = sims[:10]
+      if self.debug:
+        best_flavors = map(lambda x: flavor_database[x[0]], best_matches)
+        print "Flavor choices %s" % best_flavors
+      best_match = random.choice(best_matches)
       index, score = best_match
       self.flavor = flavor_database[index]
     except ImportError:
