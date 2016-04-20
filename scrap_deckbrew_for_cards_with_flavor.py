@@ -14,7 +14,9 @@ def find_all_cards_in_format(mtg_format_name):
       # this signifies there are no more cards to pull out.
       break
     for card in response_cards:
-      cards.append(card)
+      import pdb; pdb.set_trace()
+      if 'flavor' in card:
+        cards.append(card)
     page_number += 1
   return cards
 

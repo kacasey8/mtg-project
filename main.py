@@ -1,5 +1,6 @@
 import cache_parser
 import card_generator
+import argparse
 
 """
 This is the link between the image processing portion and
@@ -19,5 +20,8 @@ def generate_magic_card(labels, color_info, debug=False):
 
 
 if __name__ == '__main__':
+  parser = argparse.ArgumentParser()
+  parser.add_argument('-d', '--debug', action='store_true', help='will print debugging info')
+  args = parser.parse_args()
   labels, color_info = cache_parser.read_cache()
-  generate_magic_card(labels, color_info)
+  generate_magic_card(labels, color_info, args.debug)

@@ -4,45 +4,59 @@ Uses the labels and color info from an arbitrary
 image to create a relevant magic card.
 """
 
-import math
 import collections
 import random
+import colorsys
 
 def closest_color(red, green, blue):
   """
   Determines whether the RBG value is closer to white, blue
   green, red, black or not really any of them.
   Theory taken from
-  http://stackoverflow.com/questions/12069494/rgb-similar-color-approximation-algorithm
+  http://stackoverflow.com/questions/8457601/how-can-i-classify-some-color-to-color-ranges
+  Testing on http://hslpicker.com/#7cb184
   """
-  my_ycc = _ycc(red, green, blue)
-  choices = [('red', _ycc(255, 0, 0)), ('blue', _ycc(0, 0, 255)), ('green', _ycc(0, 0, 150)), ('black', _ycc(0, 0, 0)), ('white', _ycc(255, 255, 255))]
-  results = []
-  for choice in choices:
-    y1, cb1, cr1 = my_ycc
-    y2, cb2, cr2 = choice[1]
-    diff = math.sqrt(1.4*math.pow(y1-y2, 2) + .8*math.pow(cb1-cb2, 2) + .8*math.pow(cr1-cr2, 2))
-    results.append((choice[0], diff))
+  hue, lightness, saturation = colorsys.rgb_to_hls(red*1.0/255, green*1.0/255, blue*1.0/255)
+  if lightness > 0.8:
+    # fairly white, check to see if saturation is strong
+    # enough to bring out a color.
+    if saturation < 0.9:
+      return 'White'
 
-  sorted_results = sorted(results, key=lambda x: x[1])
-  best_match = sorted_results[0]
-  import pdb; pdb.set_trace()
-  if best_match[1] < 100:
-    # 100 is kind of arbitrary...but need a way to get rid colors that 
-    # are just not close to any other color
-    return best_match[0]
-  return None
+  if lightness < 0.2:
+    # if lightness is low, there still might be enough saturation
+    # to see the color
+    if saturation + 5*lightness < 1.5:
+      # at .5 saturation and .2 lightness you can still see the underlying color
+      # similarly for 1.0 saturation and .11 lightness
+      # anything lower will just look black
+      return 'Black'
 
+  if saturation < 0.25:
+    if saturation > .2:
+      # saturation is low, but is ok.
+      if lightness > .7 or lightness < .3:
+        # lightness too extreme -> washed out color that won't come through
+        return 'Devoid'
+      # if lightness is normal then color can come through
+    elif saturation > 1.:
+      # saturation is very low, but might be possible to see color
+      if lightness > .6 or lightness < .4:
+        # low saturation and not perfect lightness means color won't come through
+        return 'Devoid'
+      # if lightness is close to median then color can come through
+    else:
+      # saturation is too low. Color will look very washed out.
+      return 'Devoid'
 
-def _ycc(r, g, b): # in (0,255) range
-  """
-  Converts RBG into ycc color space which should be able to more accurately
-  predict colors.
-  """
-  y = .299*r + .587*g + .114*b
-  cb = 128 -.168736*r -.331364*g + .5*b
-  cr = 128 +.5*r - .418688*g - .081312*b
-  return y, cb, cr
+  hue_360_scale = hue * 360
+
+  # the first 'Devoid' here is Orange-Yellow. The second is Purple.
+  mappings = [('Red', 40), ('Devoid', 80), ('Green', 170), ('Blue', 230), ('Devoid', 290), ('Red', 360)]
+  for color_name, maximum_hue in mappings:
+    if hue_360_scale <= maximum_hue:
+      return color_name
+  return 'Devoid'
 
 def get_card_database():
   """
@@ -118,6 +132,9 @@ class CardGenerator:
     for single_color_info in self.color_info:
       rbg_values = single_color_info['color']
       color_vote = closest_color(rbg_values['red'], rbg_values['green'], rbg_values['blue'])
+      if color_vote == 'Devoid':
+        continue
+        # just ignore devoid for now, we'd rather see colors get chosen.
       votes[color_vote] += 1 * single_color_info['pixelFraction'] * single_color_info['score']
     sorted_votes = sorted(votes.items(), key=lambda x: x[1])
     if self.debug:
@@ -129,7 +146,7 @@ class CardGenerator:
         print "Color chosen: %s\n" % self.color
       # should check for second best match for multi color?
     else:
-      self.color = None
+      self.color = 'Devoid'
 
   def generate_playable_card(self):
     # uses color, and labels to generate a name and all relevant abilities
