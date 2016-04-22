@@ -22,6 +22,7 @@ def generate_magic_card(labels, color_info, debug=False):
 if __name__ == '__main__':
   parser = argparse.ArgumentParser()
   parser.add_argument('-d', '--debug', action='store_true', help='will print debugging info')
+  parser.add_argument('-f', '--file', help='file name for the cached file')
   args = parser.parse_args()
-  labels, color_info = cache_parser.read_cache()
+  labels, color_info = cache_parser.read_cache(args.file)
   generate_magic_card(labels, color_info, args.debug)

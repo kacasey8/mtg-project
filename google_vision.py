@@ -22,7 +22,7 @@ False.
 
 OFFLINE = False
 
-def execute_google_vision(photo_file, caching=True):
+def execute_google_vision(photo_file, caching=True, cache_filename='cached.txt'):
   '''Run a label request on a single image'''
 
   API_DISCOVERY_FILE = 'https://vision.googleapis.com/$discovery/rest?version=v1'
@@ -56,10 +56,9 @@ def execute_google_vision(photo_file, caching=True):
       })
     response = service_request.execute()
     if caching:
-      with open('cached.txt', 'w') as outfile:
+      with open(cache_filename, 'w') as outfile:
         json.dump(response, outfile)
-    else:
-      return response
+    return response
 
 if __name__ == '__main__':
   parser = argparse.ArgumentParser()
