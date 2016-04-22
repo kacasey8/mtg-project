@@ -3,6 +3,9 @@ import base64
 import httplib2
 import json
 
+import logging
+logging.basicConfig()
+
 from apiclient.discovery import build
 from oauth2client.client import GoogleCredentials
 

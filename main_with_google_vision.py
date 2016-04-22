@@ -20,7 +20,6 @@ if __name__ == '__main__':
     file_name = "Sailboat-sunset.jpg"
 
   response = google_vision.execute_google_vision(file_name, caching=False)
-
   labels, color_info = cache_parser.use_cache(response)
 
   if args.debug:
