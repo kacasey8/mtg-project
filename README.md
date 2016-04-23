@@ -27,4 +27,10 @@ Currently I can get labels from images (e.g. an image has a sailboat and a sun) 
 ### Data files
 - large_final_sample.cards are 31,858 cards generated from mtg-rnn that was trained from all cards in legacy for a few days
 - large_final_sample_readable.cards are those same 31,858 but after running mtgencode/decode.py on it
-- legacy_flavor.txt is a placeholder for all legacy flavor textx currently in use. Later we will use generated flavor text instead.
+- legacy_flavor.txt is a placeholder for all legacy flavor texts currently in use by mtg.
+- large_sample_flavor.cards are 12,522 flavor texts that were generated from mtg-rnn that was trained on legacy flavors for a few days
+- large_sample_flavor_readable.cards are the same 12,522 but after running mtgencode/decode.py
+
+### Testing
+- test_images/* are the test images I'm using. The idea is that each of them has a different dominant color: the bench is black, the car and plains are red, the plant is green, the sailboat is white and the water is blue
+- cache_from_gv/* Holds the google response as json for each image. This allows other people to test without needing to have the google vision api set up.

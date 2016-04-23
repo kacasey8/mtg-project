@@ -639,7 +639,7 @@ class Card:
 
         return outstr
 
-    def format(self, gatherer = False, for_forum = False, vdump = False, for_html = False):
+    def format(self, gatherer = False, for_forum = False, vdump = False, for_html = False, only_flavor = False):
         linebreak = '\n'
         if for_html:
             linebreak = '<hr>' + linebreak
@@ -832,10 +832,18 @@ class Card:
                 # spoiler of the bside
                 outstr += self.bside.format(gatherer=gatherer, for_forum=False, for_html=for_html, vdump=vdump)
             else:
-                outstr += linebreak
-                outstr += utils.dash_marker * 8
-                outstr += linebreak
-                outstr += self.bside.format(gatherer=gatherer, for_forum=for_forum, for_html=for_html, vdump=vdump)
+                if only_flavor:
+                    # ugly hack. For some reason the parser is taking \n as a bside of a card. Short circuit
+                    # that to prevent the flavor from being split across a ~~~~~~~~ (the else case here)
+                    # we also need to make sure there is exactly one line break, and no extra appear.
+                    attribution = self.bside.format(gatherer=gatherer, for_forum=False, for_html=for_html, vdump=vdump)
+                    outstr += linebreak
+                    outstr += attribution.strip()
+                else:
+                    outstr += linebreak
+                    outstr += utils.dash_marker * 8
+                    outstr += linebreak
+                    outstr += self.bside.format(gatherer=gatherer, for_forum=for_forum, for_html=for_html, vdump=vdump)
 
         if for_html:
             if for_forum:

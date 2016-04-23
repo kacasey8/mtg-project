@@ -14,7 +14,7 @@ def closest_color(red, green, blue):
   green, red, black or not really any of them.
   Theory taken from
   http://stackoverflow.com/questions/8457601/how-can-i-classify-some-color-to-color-ranges
-  Testing on http://hslpicker.com/#7cb184
+  Testing on http://hslpicker.com/#7cb184 to figure out better boundaries
   """
   hue, lightness, saturation = colorsys.rgb_to_hls(red*1.0/255, green*1.0/255, blue*1.0/255)
   if lightness > 0.8:
@@ -93,7 +93,7 @@ def get_card_database():
 
   return database
 
-def get_flavor_database():
+def get_flavor_database(filename):
   """
   Loads in a bunch of flavor texts we have pre generated.
   We'll attempt to grab one of these that is related to the image
@@ -101,7 +101,6 @@ def get_flavor_database():
 
   This assumes the database of flavor is saved at 'legacy_flavor.txt'
   """
-  filename = 'legacy_flavor.txt'
   database = []
   flavor = open(filename, 'r')
   content = flavor.read()
@@ -120,11 +119,12 @@ def get_flavor_database():
 
 class CardGenerator:
 
-  def __init__(self, labels, color_info, debug=False):
+  def __init__(self, labels, color_info, debug=False, flavor_database='real'):
     self.labels = labels
     self.color_info = color_info
     self.generated = False
     self.debug = debug
+    self.flavor_database = flavor_database
 
   def generate_card_color(self):
     # uses color info to get an appropriate color
@@ -190,7 +190,16 @@ class CardGenerator:
     # uses the labels of the image to find a relevant flavor text
     # Uses word2vec to try to find flavor similar to the labels
 
-    flavor_database = get_flavor_database()
+    flavor_database = []
+    if self.flavor_database in ('real', 'all'):
+      if self.debug:
+        print("getting real flavors\n")
+      flavor_database += get_flavor_database('legacy_flavor.txt')
+    if self.flavor_database in ('all', 'generated'):
+      if self.debug:
+        print("getting generated flavors\n")
+      flavor_database += get_flavor_database('large_sample_flavor_readable.cards')
+
     try:
       from gensim import corpora, models, similarities
       stoplist = set('for a of the and to in'.split())

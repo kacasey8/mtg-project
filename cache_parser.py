@@ -17,7 +17,7 @@ def read_cache(file_name='cached.txt'):
     cached_responses = json.loads(contents)
     return use_cache(cached_responses)
   else:
-    print("Oops, cached.txt doesn't exist. Perhaps you need to run google_vision.py")
+    print("Oops, %s doesn't exist. Perhaps you need to run google_vision.py" % file_name)
 
 def use_cache(cached_responses):
   cached_response = cached_responses['responses'][0]
@@ -41,6 +41,4 @@ def use_cache(cached_responses):
   # We will likely need multiple colors to identify what
   # color the card should be, but this is the most dominant.
   most_dominant_color_RBG = color_info[0]['color']
-  #print "labels for image %s:" % labels
-  #print "Most dominant color in RBG %s:" % most_dominant_color_RBG
   return (labels, color_info)

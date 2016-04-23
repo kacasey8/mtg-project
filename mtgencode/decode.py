@@ -104,8 +104,11 @@ def main(fname, oname = None, verbose = True, encoding = 'std',
                 fstring = fstring.replace('<', '(').replace('>', ')')
                 writer.write(('\n' + fstring[:-1]).replace('\n', '\n\t\t'))
             else:
+                only_flavor = False
+                if encoding in ['custom']:
+                    only_flavor = True
                 fstring = card.format(gatherer = gatherer, for_forum = for_forum,
-                                      vdump = vdump, for_html = for_html)
+                                      vdump = vdump, for_html = for_html, only_flavor = only_flavor)
                 if creativity and for_html:
                     fstring = fstring[:-6] # chop off the closing </div> to stick stuff in
                 writer.write((fstring + '\n').encode('utf-8'))

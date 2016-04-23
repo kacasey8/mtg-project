@@ -62,11 +62,9 @@ def execute_google_vision(photo_file, caching=True, cache_filename='cached.txt')
 
 if __name__ == '__main__':
   parser = argparse.ArgumentParser()
-  parser.add_argument('-f', '--file', help='The image you\'d like to label.')
+  parser.add_argument('-f', '--file', default="test_images/Sailboat-sunset.jpg", help='The image you\'d like to label.')
   args = parser.parse_args()
   file_name = args.file
-  if file_name == None:
-    file_name = "Sailboat-sunset.jpg"
 
   if OFFLINE:
     print("Use the results in cached.txt for testing.")
