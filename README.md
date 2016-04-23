@@ -1,12 +1,13 @@
 # Robo Rosewater Project
 Generating magic cards from random images.
 
-Currently I can get labels from images (e.g. an image has a sailboat and a sun) from the google vision api and I can also generate unique new cards using mtg-rnn after training on all the legacy cards. I'm currently linking the two through exact text matching between labels and the card names that are generated, and also enforcing the color of the card matches. To get flavor text I'm currently just choosing between all the flavor texts on legacy mtg cards and using gensim (https://radimrehurek.com/gensim/index.html) to find the best match.
+Currently I can get labels from images (e.g. an image has a sailboat and a sun) and color information in the form of the top 10 RBG values of the image from the google vision api. I translate these RBG values into HSL (hue, lightness, and saturation) and then figure out if the RBG is closest to either red, green or blue, black or white. I then choose a color that the card should be, unfortunately only single color for now, and no devoid. I can also generate unique new cards using mtg-rnn after training on all the legacy cards. I then link the image to a generated card through exact text matching between labels and the card names and also enforcing the color of the card matches. For flavor text I trained mtg-rnn but only on flavor text of all legacy cards. I then link the labels to a flavor text by using gensim which uses a bag of words model to compute similarity.
 
 ## Using Other Projects
 - Both are under MIT license
 - mtgencode is from https://github.com/billzorn/mtgencode. I've modified it slightly to allow it to handle flavor text and to work with the JSON that I am using from https://deckbrew.com/api/. This repo lets us convert a magic card into '|' separated data and also convert it back. This is pretty useful in conjuction with mtg-rnn.
 - mtg-rnn is https://github.com/billzorn/mtg-rnn. mtg-rnn uses a character based neural network which means it guesses what character to add based on what it outputed previously. It adds characters in magic like style by training on a set of magic cards...and it learns english by itself with enough training. By using the encoded version to train, the neural network doesn't have to learn as much about syntax since the magic cards are encoded. (e.g. @ refers to the card's name in question, the neural network can just write "When @ enteres the battlefield..." as oppose to trying to properly generate those effects itself.)
+- Gensim is under the GNU LGPL license and is https://radimrehurek.com/gensim/tut3.html. Gensim provides word2vec functionality, so that I can translate flavor text into a bag of words, and then try to find flavor text that is most similar to the labels. It uses Latent Semantic Analysis to map how close words are to each other, and then chose the overall closest bag of words to the bag of labels.
 
 ## Project Structure
 ### Image Processing
