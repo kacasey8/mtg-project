@@ -3,6 +3,34 @@ Generating magic cards from random images.
 
 Currently I can get labels from images (e.g. an image has a sailboat and a sun) and color information in the form of the top 10 RBG values of the image from the google vision api. I translate these RBG values into HSL (hue, lightness, and saturation) and then figure out if the RBG is closest to either red, green or blue, black or white. I then choose a color that the card should be, unfortunately only single color for now, and no devoid. I can also generate unique new cards using mtg-rnn after training on all the legacy cards. I then link the image to a generated card through exact text matching between labels and the card names and also enforcing the color of the card matches. For flavor text I trained mtg-rnn but only on flavor text of all legacy cards. I then link the labels to a flavor text by using gensim which uses a bag of words model to compute similarity.
 
+## Usage
+- To use the project use main.py or main_with_google_vision.py. Use the -d (debug) flag to print out more information about what is going on. You can also specify with the -a option whether to pull from "real" flavor texts, "generated" flavor texts or all.
+
+### main.py
+- main.py takes a file that the google vision api returned, you can use any file from the cache_from_gv directory, and you specify this file with the -f option.
+- An example command would be `python main.py -f cache_from_gv/bench.txt`.
+- Another example command of with the -a option would be `python main.py -f cache_from_gv/water.txt -a generated` which outputs
+
+Color: Blue  
+Name: trid~mover reflection  
+Rules: @ can't be blocked.  
+Flavor: exception shapes up in the great scenebind.  
+Mana cost: {2}{U}  
+Type: creature enchantment ~ xemunta  
+Power/Toughness: (2/2)  
+
+### main_with_google_vision.py
+- main_with_google_vision.py takes an image file, goes to the google vision api and then uses main.py with the result. The image file is specified with -f.
+- Other options include -c which is whether or not we should cache the result, and if we are caching it -l determines the location of where we should cache to.
+- An example command would be `python main_with_google_vision.py -f test_images/green_plant.jpg -d -c -l cache_from_gv/plant.txt -a both` which outputs (along with various debug info)
+
+Color: Green  
+Name: torplanting road  
+Rules: uncast target spell. put a 2/2 green elemental creature token onto the battlefield.  
+Flavor: smart artificers clean up after themselves.  
+Mana cost: {3}{G}{G}  
+Type: instant  
+
 ## Using Other Projects
 - Both are under MIT license
 - mtgencode is from https://github.com/billzorn/mtgencode. I've modified it slightly to allow it to handle flavor text and to work with the JSON that I am using from https://deckbrew.com/api/. This repo lets us convert a magic card into '|' separated data and also convert it back. This is pretty useful in conjuction with mtg-rnn.
