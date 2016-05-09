@@ -4,6 +4,7 @@ Generating magic cards from random images.
 Currently I can get labels from images (e.g. an image has a sailboat and a sun) and color information in the form of the top 10 RBG values of the image from the google vision api. I translate these RBG values into HSL (hue, lightness, and saturation) and then figure out if the RBG is closest to either red, green or blue, black or white. I then choose a color that the card should be, unfortunately only single color for now, and no devoid. I can also generate unique new cards using mtg-rnn after training on all the legacy cards. I then link the image to a generated card through exact text matching between labels and the card names and also enforcing the color of the card matches. For flavor text I trained mtg-rnn but only on flavor text of all legacy cards. I then link the labels to a flavor text by using gensim which uses a bag of words model to compute similarity.
 
 ## Usage
+- It's important to get access to the google vision api before running main_with_google_vision.py. If you have my api file information you can run `export GOOGLE_APPLICATION_CREDENTIALS=mtg-project-f71e27bfc7e8.json` to gain access.
 - To use the project use main.py or main_with_google_vision.py. Use the -d (debug) flag to print out more information about what is going on. You can also specify with the -a option whether to pull from "real" flavor texts, "generated" flavor texts or all.
 
 ### main.py
