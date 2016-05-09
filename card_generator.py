@@ -136,6 +136,7 @@ class CardGenerator:
         continue
         # just ignore devoid for now, we'd rather see colors get chosen.
       votes[color_vote] += 1 * single_color_info['pixelFraction'] * single_color_info['score']
+
     sorted_votes = sorted(votes.items(), key=lambda x: x[1])
     if self.debug:
       print "Votes for color choice: %s\n" % sorted_votes
@@ -146,7 +147,7 @@ class CardGenerator:
         print "Color chosen: %s\n" % self.color
       # should check for second best match for multi color?
     else:
-      self.color = 'Devoid'
+      self.color = 'Black'
 
   def generate_playable_card(self):
     # uses color, and labels to generate a name and all relevant abilities

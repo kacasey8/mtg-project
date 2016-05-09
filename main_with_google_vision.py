@@ -24,7 +24,7 @@ if __name__ == '__main__':
   labels, color_info = cache_parser.use_cache(response)
 
   if args.debug:
-    main.generate_magic_card(labels, color_info, debug=True, flavor_database=args.flavor)
+    main.generate_magic_card(labels, color_info, debug=True, flavor_database=args.flavor, filename=args.file)
   else:
-    main.generate_magic_card(labels, color_info, debug=False, flavor_database=args.flavor)
+    main.generate_magic_card(labels, color_info, debug=False, flavor_database=args.flavor, filename=args.file)
 
